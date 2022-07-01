@@ -1,5 +1,6 @@
 package com.example.SpringRest.demo.service;
 
+import com.example.SpringRest.demo.exception.StudentNotFoundException;
 import com.example.SpringRest.demo.model.Student;
 import com.example.SpringRest.demo.repository.StudentRepository;
 import lombok.NonNull;
@@ -30,7 +31,8 @@ public class StudentService {
     }
 
     public Student fetchStudentById(int id){
-        return studentRepository.findById(id).get();
+
+        return studentRepository.findById(id).orElseThrow(()-> new StudentNotFoundException("Student not found:"+id));
     }
 
 
