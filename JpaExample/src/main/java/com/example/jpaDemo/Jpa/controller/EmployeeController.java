@@ -4,6 +4,7 @@ package com.example.jpaDemo.Jpa.controller;
 import com.example.jpaDemo.Jpa.Entity.Employee;
 import com.example.jpaDemo.Jpa.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -53,6 +54,22 @@ public class EmployeeController {
         return employeeService.getEmployeeByName(name);
     }
 
+//paging start
 
+    @RequestMapping(value = "/pagingAndShortingEmployees/{pageNumber}/{pageSize}", method = RequestMethod.GET)
+
+    public Page<Employee> employeePagination(@PathVariable Integer pageNumber, @PathVariable Integer pageSize){
+
+        return employeeService.getEmployeePagination(pageNumber,pageSize,null);
+    }
+
+
+    @RequestMapping(value = "/pagingAndShortingEmployees/{pageNumber}/{pageSize}/{sortProperty}",
+            method = RequestMethod.GET)
+    public Page<Employee> employeePagination(@PathVariable Integer pageNumber,
+                                             @PathVariable Integer pageSize,
+                                             @PathVariable String sortProperty) {
+        return employeeService.getEmployeePagination(pageNumber, pageSize, sortProperty);
+    }
 
 }
