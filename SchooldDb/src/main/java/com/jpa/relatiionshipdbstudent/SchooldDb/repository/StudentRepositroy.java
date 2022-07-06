@@ -2,9 +2,11 @@ package com.jpa.relatiionshipdbstudent.SchooldDb.repository;
 
 import com.jpa.relatiionshipdbstudent.SchooldDb.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -54,6 +56,22 @@ public interface StudentRepositroy extends JpaRepository<Student,Long> {
                 nativeQuery = true
         )
         Student getStudentByEmailAddressNativeNamedParam(@Param("emailId") String emailId);
+
+
+
+
+        //------------------#############   UPDATE METHOD---------------------------------------------
+        @Modifying
+        @Transactional
+        @Query(
+                value ="update tbl_student set first_Name=?1 where email_address =?2 ",
+                nativeQuery = true
+        )
+        int updateStudentNameByEmailId(String firstName,String emailId);
+
+
+
+
 
 
 }

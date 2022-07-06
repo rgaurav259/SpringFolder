@@ -140,6 +140,15 @@ class StudentRepositroyTest {
 
 
 
+    @Test
+   public void  updateStudentNameByEmailIdTest(){
+        studentRepositroy.updateStudentNameByEmailId("gauravKumarRoy","gaurav@gmail.com");
+
+        //System.out.println("studentRepositroy = " + studentRepositroy);
+
+   }
+
+
 
 
 
