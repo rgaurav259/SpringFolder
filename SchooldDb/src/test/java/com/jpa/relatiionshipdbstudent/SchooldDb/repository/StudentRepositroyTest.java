@@ -104,6 +104,60 @@ class StudentRepositroyTest {
 
 
 
+    @Test
+    public void printgetStudentByEmailAddress(){
+    Student student=studentRepositroy.getStudentByEmailAddress("gaurav@gmail.com");
+
+        System.out.println("student = " + student);
+    }
+
+
+    @Test
+    public void printgetStudentFirstNameByEmailAddress(){
+        String  firstName=studentRepositroy.getStudentFirstNameByEmailAddress("saurabh@gmail.com");
+
+        System.out.println("firstName = " + firstName);
+    }
+
+
+
+    @Test
+    public void printgetStudentByEmailAddressNative(){
+        Student student=studentRepositroy.getStudentByEmailAddressNative("gaurav@gmail.com");
+
+        System.out.println("student = " + student);
+    }
+
+    
+    
+    //native param using 
+    @Test
+    public void printgetStudentByEmailAddressNativeNamedParam(){
+        Student student=studentRepositroy.getStudentByEmailAddressNativeNamedParam("gaurav@gmail.com");
+
+        System.out.println("student = " + student);
+    }
+
+
+
+    @Test
+   public void  updateStudentNameByEmailIdTest(){
+        studentRepositroy.updateStudentNameByEmailId("gauravKumarRoy","gaurav@gmail.com");
+
+        //System.out.println("studentRepositroy = " + studentRepositroy);
+
+   }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
