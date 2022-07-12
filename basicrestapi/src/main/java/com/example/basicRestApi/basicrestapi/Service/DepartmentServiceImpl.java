@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class DepartmentServiceImpl implements DepartmentService {
@@ -30,8 +31,43 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public void deleteDepartmentsById(Long departmentID) {
+    public void deleteDepartmentById(Long departmentID) {
+
         departmentRepository.deleteById(departmentID);
+        //we are returning string over here
+    }
+
+    @Override
+    public Department updateDepartment(Long departmentId, Department department) {
+
+        Department depDb=departmentRepository.findById(departmentId).get();
+        //first we have to get and then update the data
+        //now check null and blank
+
+        if (Objects.nonNull(department.getDepartmentName())
+        && !"".equalsIgnoreCase(department.getDepartmentName())){
+            depDb.setDepartmentName(department.getDepartmentName());
+        }
+
+        if (Objects.nonNull(department.getDepartmentCode())
+                && !"".equalsIgnoreCase(department.getDepartmentCode())){
+            depDb.setDepartmentCode(department.getDepartmentCode());
+        }
+
+
+        if (Objects.nonNull(department.getDepartmentAddress())
+                && !"".equalsIgnoreCase(department.getDepartmentAddress())){
+            depDb.setDepartmentAddress(department.getDepartmentAddress());
+        }
+
+
+
+        return departmentRepository.save(depDb);
+    }
+
+    @Override
+    public Department fetchDepartmentByName(String departmentName) {
+        return departmentRepository.findByDepartmentName(departmentName);
     }
 
 
