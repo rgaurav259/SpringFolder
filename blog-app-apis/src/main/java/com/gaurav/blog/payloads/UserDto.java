@@ -1,20 +1,16 @@
-package com.gaurav.blog.entities;
-
+package com.gaurav.blog.payloads;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
+import javax.persistence.Column;
 
-@Entity
-@Table(name = "users")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+public class UserDto {
+
     private int id;
 
     @Column(name = "user_name",nullable = false,length = 100)
@@ -25,6 +21,5 @@ public class User {
     private String password;
 
     private String about;
-
 
 }
