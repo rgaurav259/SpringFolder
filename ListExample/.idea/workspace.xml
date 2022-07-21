@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/ComparataorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/ComparatoreDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/MapHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/MyComparatorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompareToExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/CompareToExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CursorExampleEnumeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/CursorExampleEnumeration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HashSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/HashSetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/IteratorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/LinkedListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListIteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/ListIteratorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SortedSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/SortedSetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/StackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreeSetDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/TreeSetDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TreesetDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/TreesetDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VectorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/VectorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/ArrayListExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/CompareToExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/CursorExampleEnumeration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/HashSetExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/IteratorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/LinkedListExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/ListIteratorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/SortedSetExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/StackDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/TreeSetDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/TreesetDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/VectorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Demo/MapHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/MapHashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Demo/MapHashMapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Demo/MapHashMapDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
