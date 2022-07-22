@@ -1,0 +1,6 @@
+#updated by gaurav kumar
+#Fri Jul 22 11:26:48 IST 2022
+venki=9999
+nag=88888
+pwd=tiger
+user=scott

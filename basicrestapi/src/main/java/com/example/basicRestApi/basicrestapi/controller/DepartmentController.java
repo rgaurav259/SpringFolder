@@ -2,9 +2,13 @@ package com.example.basicRestApi.basicrestapi.controller;
 
 import com.example.basicRestApi.basicrestapi.Service.DepartmentService;
 import com.example.basicRestApi.basicrestapi.entity.Department;
+import com.example.basicRestApi.basicrestapi.error.DepartmentNotFoundException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -13,19 +17,29 @@ public class DepartmentController {
     @Autowired
     private DepartmentService departmentService;
 
+
+    //adding logger
+    private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
+
+
+
     @PostMapping("/saveDepartments")
-    public Department saveDepartment(@RequestBody Department department){
+    public Department saveDepartment( @Valid @RequestBody Department department){
+
+        LOGGER.info("inside savedepartment of DepartmentController");
 
         return departmentService.saveDepartment(department);
     }
 
     @GetMapping("/allDepartments")
     public List<Department> fetchDeprtmentList(){
+
+        LOGGER.info("inside fetchDeprtmentList of DepartmentController");
         return departmentService.fetchDeprtmentList();
     }
 
     @GetMapping("/departments/{id}")
-    public Department fetchDepartmentById(@PathVariable("id") Long departmentId){
+    public Department fetchDepartmentById(@PathVariable("id") Long departmentId) throws DepartmentNotFoundException {
         return departmentService.fetchDepartmentById(departmentId);
 
     }

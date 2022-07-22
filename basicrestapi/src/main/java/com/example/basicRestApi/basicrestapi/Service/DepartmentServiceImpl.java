@@ -2,11 +2,13 @@ package com.example.basicRestApi.basicrestapi.Service;
 
 import com.example.basicRestApi.basicrestapi.Repository.DepartmentRepository;
 import com.example.basicRestApi.basicrestapi.entity.Department;
+import com.example.basicRestApi.basicrestapi.error.DepartmentNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Objects;
+import java.util.Optional;
 
 @Service
 public class DepartmentServiceImpl implements DepartmentService {
@@ -26,8 +28,16 @@ public class DepartmentServiceImpl implements DepartmentService {
     }
 
     @Override
-    public Department fetchDepartmentById(Long departmentId) {
-        return departmentRepository.findById(departmentId).get();
+    public Department fetchDepartmentById(Long departmentId) throws DepartmentNotFoundException {
+        //return departmentRepository.findById(departmentId).get();//without exceptionHandling
+
+        Optional<Department> department= departmentRepository.findById(departmentId);
+
+        if (!department.isPresent()){
+            throw new DepartmentNotFoundException("Department not available");
+        }
+        return department.get();
+
     }
 
     @Override
@@ -67,7 +77,8 @@ public class DepartmentServiceImpl implements DepartmentService {
 
     @Override
     public Department fetchDepartmentByName(String departmentName) {
-        return departmentRepository.findByDepartmentName(departmentName);
+       // return departmentRepository.findByDepartmentName(departmentName);
+        return departmentRepository.findByDepartmentNameIgnoreCase(departmentName);
     }
 
 

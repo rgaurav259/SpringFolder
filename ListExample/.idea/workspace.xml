@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/abc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Demo/PropertiesClassDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Demo/MapHashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Demo/MapHashMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Demo/MapHashMapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Demo/MapHashMapDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/ListExample&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MapHashMapDemo">
+  <component name="RunManager" selected="Application.PropertiesClassDemo">
     <configuration name="CompComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.Demo.CompComp" />
       <module name="ListExample" />
@@ -56,6 +57,19 @@
     </configuration>
     <configuration name="MapHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.Demo.MapHashMapDemo" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.Demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PropertiesClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Demo.PropertiesClassDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -93,20 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.Demo.CompareToExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Demo.CompareToExample" />
-      <module name="ListExample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PropertiesClassDemo" />
         <item itemvalue="Application.MapHashMapDemo" />
         <item itemvalue="Application.CompComp" />
         <item itemvalue="Application.com.java.Demo.ComparatoreDemo2" />
         <item itemvalue="Application.com.java.Demo.ComparataorDemo" />
-        <item itemvalue="Application.com.java.Demo.CompareToExample" />
       </list>
     </recent_temporary>
   </component>
