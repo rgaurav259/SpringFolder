@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Stream1/StreamDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/lambdaExprssion/ConstructorReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/lambdaExprssion/MethodReferenceLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/lambdaExprssion/MethodReferenceLambdainstancemethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../empmanage/src/main/java/com/employeemanagement/empmanage/controller/EmpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../empmanage/src/main/resources/templates/add_emp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../empmanage/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Stream1/DateAndTimeApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Stream1/StreamForeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Stream1/StreamForeach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Stream1/StreamForeach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Stream1/StreamForeach.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/ListExample&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StreamDemo1">
+  <component name="RunManager" selected="Application.DateAndTimeApi">
     <configuration name="ConstructorReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.lambdaExprssion.ConstructorReference" />
       <module name="ListExample" />
@@ -60,25 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferenceLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.lambdaExprssion.MethodReferenceLambda" />
+    <configuration name="DateAndTimeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.DateAndTimeApi" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.lambdaExprssion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodReferenceLambdainstancemethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.lambdaExprssion.MethodReferenceLambdainstancemethod" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.lambdaExprssion.*" />
+          <option name="PATTERN" value="com.java.Stream1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +81,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierDemoRandomOTP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.lambdaExprssion.SupplierDemoRandomOTP" />
+    <configuration name="StreamForeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.StreamForeach" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.lambdaExprssion.*" />
+          <option name="PATTERN" value="com.java.Stream1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.StreamMinMax" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.Stream1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DateAndTimeApi" />
+        <item itemvalue="Application.StreamForeach" />
+        <item itemvalue="Application.StreamMinMax" />
         <item itemvalue="Application.StreamDemo1" />
         <item itemvalue="Application.ConstructorReference" />
-        <item itemvalue="Application.MethodReferenceLambdainstancemethod" />
-        <item itemvalue="Application.MethodReferenceLambda" />
-        <item itemvalue="Application.SupplierDemoRandomOTP" />
       </list>
     </recent_temporary>
   </component>

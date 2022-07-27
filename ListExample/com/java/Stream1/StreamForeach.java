@@ -1,7 +1,9 @@
 package com.java.Stream1;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.function.Consumer;
+import java.util.stream.Stream;
 
 public class StreamForeach {
     public static void main(String[] args) {
@@ -36,5 +38,8 @@ public class StreamForeach {
             System.out.println("arr = " + arr);
             
         }
+        //2nd way print
+        Stream.of(array).forEach(System.out::println);
+
     }
 }
