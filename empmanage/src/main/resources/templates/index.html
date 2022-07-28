@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeLeaf.com">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -34,6 +34,15 @@
 </nav>
 
 <!-- end navbar-->
+<!--session-->
+
+<div th:if=${session.msg}>
+    <div class="alert alert-success" role="alert" th:text="${session.msg}">
+    </div>
+    <th:block th:text="${session.removeAttribute('msg')}"></th:block>
+
+</div>
+
 
 <!--div class container table-->
 

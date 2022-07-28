@@ -1,6 +1,7 @@
 package com.gaurav.blog.services.impl;
 
 import com.gaurav.blog.entities.User;
+import com.gaurav.blog.exceptions.ResourceNotFoundException;
 import com.gaurav.blog.payloads.UserDto;
 import com.gaurav.blog.repositories.UserRepo;
 import com.gaurav.blog.services.UserService;
@@ -23,13 +24,26 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UserDto updateUser(UserDto user, Integer userId) {
-        return null;
+    public UserDto updateUser(UserDto userDto, Integer userId) {
+      User user=  this.userRepo.findById(userId).orElseThrow(()-> new ResourceNotFoundException("User","Id",userId));
+
+
+      user.setName(userDto.getName());
+      user.setEmail(userDto.getEmail());
+      user.setPassword(userDto.getPassword());
+      user.setAbout(userDto.getAbout());
+
+        User updatedUser = this.userRepo.save(user);
+        UserDto userDto1 = this.userToDto(updatedUser);
+        return userDto1;
+
     }
 
     @Override
     public UserDto getUserById(Integer userId) {
-        return null;
+
+        User user=this.userRepo.findById(userId).orElseThrow(()-> new ResourceNotFoundException("User","Id",userId));
+        return this.userToDto(user);
     }
 
     @Override
