@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Demo/NavigableSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Stream1/FilterProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Stream1/StreamDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-app-apis/src/main/java/com/gaurav/blog/exceptions/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../empmanage/src/main/java/com/employeemanagement/empmanage/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../empmanage/src/main/java/com/employeemanagement/empmanage/repository/EmpRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../empmanage/src/main/java/com/employeemanagement/empmanage/service/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Stream1/StreamMapDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-app-apis/src/main/java/com/gaurav/blog/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app-apis/src/main/java/com/gaurav/blog/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-app-apis/src/main/java/com/gaurav/blog/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-app-apis/src/main/java/com/gaurav/blog/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../empmanage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../empmanage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../empmanage/src/main/java/com/employeemanagement/empmanage/controller/EmpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../empmanage/src/main/java/com/employeemanagement/empmanage/controller/EmpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../empmanage/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../empmanage/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../empmanage/src/main/resources/templates/add_emp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../empmanage/src/main/resources/templates/add_emp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../empmanage/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../empmanage/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/ListExample&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NavigableSetExample">
+  <component name="RunManager" selected="Application.StreamMapDemo">
     <configuration name="FilterProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.Stream1.FilterProduct" />
       <module name="ListExample" />
@@ -80,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.java.Stream1.Leapyear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.Leapyear" />
+    <configuration name="StreamMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.StreamMapDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamMapDemo" />
         <item itemvalue="Application.NavigableSetExample" />
         <item itemvalue="Application.FilterProduct" />
         <item itemvalue="Application.com.java.Stream1.StreamDemo4" />
         <item itemvalue="Application.com.java.Stream1.Zoneclass" />
-        <item itemvalue="Application.com.java.Stream1.Leapyear" />
       </list>
     </recent_temporary>
   </component>
