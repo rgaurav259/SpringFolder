@@ -22,7 +22,8 @@ public class Menu {
     private double price;
 
 
-    @ManyToMany
+    @ManyToOne
+    @JoinColumn(name = "hotel_id")
     private Hotel hotel;
 
     public Menu(String menuName, double price) {

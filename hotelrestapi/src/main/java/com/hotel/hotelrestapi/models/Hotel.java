@@ -19,13 +19,20 @@ public class Hotel {
     private Integer hotelId;
     private String hotelName;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "address_id")
     private Address address;
 
-    @OneToMany
+    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JoinColumn(name = "hotel_id")
     private Set<Menu> menuList;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.MERGE,fetch = FetchType.EAGER)
+    @JoinTable( name = "hotel_delivery",
+            joinColumns = @JoinColumn(name = "hotel_id"),
+            inverseJoinColumns = @JoinColumn(name = "delivery_id")
+
+    )
     private Set<Delivery> delivery;
 
     //constructor
