@@ -40,26 +40,27 @@ public class HotelServiceImpl implements HotelService{
 
     @Override
     public List<Hotel> getHotelsByCity(String city) {
-        return null;
+
+        return hotelRepository.findByAddressCity(city);
     }
 
     @Override
     public List<Hotel> getHotelsByMenu(String menuName) {
-        return null;
+        return hotelRepository.getHotelsByMenu(menuName);
     }
 
     @Override
     public List<Hotel> getHotelsByDelivery(String partnerName) {
-        return null;
+        return hotelRepository.getHotelsByDelivery(partnerName);
     }
 
     @Override
     public List<Hotel> getHotelsByLocation(String location) {
-        return null;
+        return hotelRepository.findByAddressStreetName(location);
     }
 
     @Override
     public List<Hotel> getHotelsByLocationAndMenu(String location, String menuName) {
-        return null;
+        return hotelRepository.getHotelsByLocationAndMenu(location, menuName);
     }
 }
