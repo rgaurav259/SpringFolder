@@ -6,6 +6,7 @@ import com.hotel.hotelrestapi.models.Hotel;
 import com.hotel.hotelrestapi.models.Menu;
 import com.hotel.hotelrestapi.service.DeliveryService;
 import com.hotel.hotelrestapi.service.HotelService;
+import com.hotel.hotelrestapi.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -26,6 +27,9 @@ public class HotelrestapiApplication implements CommandLineRunner {
 	HotelService hotelService;
 	@Autowired
 	DeliveryService deliveryService;
+
+	@Autowired
+	MenuService menuService;
 	@Override
 	public void run(String... args) throws Exception {
 
@@ -83,5 +87,9 @@ public class HotelrestapiApplication implements CommandLineRunner {
 		hotelService.getHotelsByLocationAndMenu("JPNAGARA","IDLI")
 				.forEach((h)-> System.out.println(h.getHotelName()+" "+h.getAddress().getCity()));
 
+
+
+		menuService.getMenusByHotel("TAJ")
+				.forEach((m)->System.out.println(m.getMenuName()+" "+m.getPrice()));
 	}
 }
