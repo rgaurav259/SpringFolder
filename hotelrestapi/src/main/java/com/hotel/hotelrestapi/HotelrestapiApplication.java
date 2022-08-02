@@ -33,20 +33,20 @@ public class HotelrestapiApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		Address address = new Address("JPNAGARA","GURUGRAM",201240,"Bihar");
-
-		Menu menu1 = new Menu("RASGULLA",2000);
-		Menu menu2 = new Menu("IDLI",18);
-		Set<Menu> menulist = new HashSet<>(Arrays.asList(menu1,menu2));
-
-		Delivery del1 = deliveryService.getDeliveryByPartner("SWIGGY");
-		//Delivery del2 = new Delivery("Uber",190);
-
-		Set<Delivery> deliverylist = new HashSet<>(Arrays.asList(del1));
-
-		Hotel hotel = new Hotel("TAJ",address,menulist,deliverylist);
-
-		hotelService.addHotel(hotel);
+//		Address address = new Address("JPNAGARA","GURUGRAM",201240,"Bihar");
+//
+//		Menu menu1 = new Menu("RASGULLA",2000);
+//		Menu menu2 = new Menu("IDLI",18);
+//		Set<Menu> menulist = new HashSet<>(Arrays.asList(menu1,menu2));
+//
+//		Delivery del1 = deliveryService.getDeliveryByPartner("SWIGGY");
+//		//Delivery del2 = new Delivery("Uber",190);
+//
+//		Set<Delivery> deliverylist = new HashSet<>(Arrays.asList(del1));
+//
+//		Hotel hotel = new Hotel("TAJ",address,menulist,deliverylist);
+//
+//		hotelService.addHotel(hotel);
 
 
 		//get dataaaa
@@ -84,12 +84,12 @@ public class HotelrestapiApplication implements CommandLineRunner {
 
 		//get
 
-		hotelService.getHotelsByLocationAndMenu("JPNAGARA","IDLI")
-				.forEach((h)-> System.out.println(h.getHotelName()+" "+h.getAddress().getCity()));
-
-
-
-		menuService.getMenusByHotel("TAJ")
-				.forEach((m)->System.out.println(m.getMenuName()+" "+m.getPrice()));
+//		hotelService.getHotelsByLocationAndMenu("JPNAGARA","IDLI")
+//				.forEach((h)-> System.out.println(h.getHotelName()+" "+h.getAddress().getCity()));
+//
+//
+//
+//		menuService.getMenusByHotel("TAJ")
+//				.forEach((m)->System.out.println(m.getMenuName()+" "+m.getPrice()));
 	}
 }

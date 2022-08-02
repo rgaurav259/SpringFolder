@@ -45,17 +45,42 @@ public class HotelController {
     }
 
 
+    @DeleteMapping("/hotels/hotel-by-id/{hotelId}")
+    public ResponseEntity<Void> deleteHotel(@PathVariable int hotelId){
+        hotelService.deleteHotel(hotelId);
+        return ResponseEntity.ok().build();
+    }
+    @GetMapping("/hotels/hotel-by-city/{city}")
+    public ResponseEntity<List<Hotel>>  getHotelsByCity(@PathVariable String city){
+        List<Hotel> hotelList = hotelService.getHotelsByCity(city);
+        return ResponseEntity.ok().body(hotelList);
 
+    }
+    @GetMapping("/hotels/hotel-by-menu/{menuName}")
+   public ResponseEntity<List<Hotel>>  getHotelsByMenu(@PathVariable String menuName){
+        List<Hotel> hotelsByMenu = hotelService.getHotelsByMenu(menuName);
+        return ResponseEntity.ok().body(hotelsByMenu);
+    }
+    @GetMapping("/hotels/hotel-by-Delivery/{partnerName}")
+    public ResponseEntity<List<Hotel>> getHotelsByDelivery(@PathVariable String partnerName){
+        List<Hotel> hotelsByDelivery = hotelService.getHotelsByDelivery(partnerName);
+        return ResponseEntity.ok().body(hotelsByDelivery);
+    }
 
+    @GetMapping("/hotels/hotel-by-location/{location}")
+   public ResponseEntity<List<Hotel>>  getHotelsByLocation(@PathVariable String location){
 
-//    void deleteHotel(int hotelId);
-//
-//
-//    List<Hotel> getHotelsByCity(String city);
-//    List<Hotel> getHotelsByMenu(String menuName);
-//    List<Hotel> getHotelsByDelivery(String partnerName);
-//    List<Hotel> getHotelsByLocation(String location);
-//    List<Hotel> getHotelsByLocationAndMenu(String location,String menuName);
+        List<Hotel> hotelsByLocation = hotelService.getHotelsByLocation(location);
+        return ResponseEntity.ok().body(hotelsByLocation);
+
+    }
+    @GetMapping("/hotels/hotel-by-location/{location}/menuName/{menuName}")
+    public ResponseEntity<List<Hotel>> getHotelsByLocationAndMenu(@PathVariable String location, @PathVariable String menuName){
+
+        List<Hotel> hotelsByMenu = hotelService.getHotelsByMenu(menuName);
+
+        return ResponseEntity.ok().body(hotelsByMenu);
+    }
 
 
 

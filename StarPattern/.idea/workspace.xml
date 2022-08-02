@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0978165c-92fc-4e1b-95e8-7a8c989b36cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Star/PlusSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/Star/PlusSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StarPattern/Star/PlusSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarPattern/Star/PlusSquare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Star/StarTestDiamond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StarPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StarPattern/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,51 +36,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/SpringFolder/dtoexample"
+    "last_opened_file_path": "C:/SpringFolder/loginexample"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PlusSquare">
-    <configuration name="PascalReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star.PascalReverse" />
-      <module name="StarPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PascalTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star.PascalTriangle" />
-      <module name="StarPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star.PlusSquare" />
-      <module name="StarPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Star.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareParellelBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star.SquareParellelBar" />
+  <component name="RunManager" selected="Application.StarTestDiamond">
+    <configuration name="StarTestDiamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Star.StarTestDiamond" />
       <module name="StarPattern" />
       <extension name="coverage">
         <pattern>
@@ -104,13 +66,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Star.HillPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Star.HillPattern" />
+      <module name="StarPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Star.HillReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Star.HillReverse" />
+      <module name="StarPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Star.PlusSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Star.PlusSquare" />
+      <module name="StarPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Star.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlusSquare" />
-        <item itemvalue="Application.SquareParellelBar" />
-        <item itemvalue="Application.PascalReverse" />
-        <item itemvalue="Application.PascalTriangle" />
+        <item itemvalue="Application.StarTestDiamond" />
+        <item itemvalue="Application.Star.HillReverse" />
         <item itemvalue="Application.Star.DiamondPattern" />
+        <item itemvalue="Application.Star.HillPattern" />
+        <item itemvalue="Application.Star.PlusSquare" />
       </list>
     </recent_temporary>
   </component>
