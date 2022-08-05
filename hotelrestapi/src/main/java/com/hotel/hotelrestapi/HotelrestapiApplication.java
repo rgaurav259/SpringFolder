@@ -17,21 +17,21 @@ import java.util.HashSet;
 import java.util.Set;
 
 @SpringBootApplication
-public class HotelrestapiApplication implements CommandLineRunner {
+public class HotelrestapiApplication {//implements CommandLineRunner
 
 	public static void main(String[] args) {
 		SpringApplication.run(HotelrestapiApplication.class, args);
 	}
 
-	@Autowired
-	HotelService hotelService;
-	@Autowired
-	DeliveryService deliveryService;
-
-	@Autowired
-	MenuService menuService;
-	@Override
-	public void run(String... args) throws Exception {
+//	@Autowired
+//	HotelService hotelService;
+//	@Autowired
+//	DeliveryService deliveryService;
+//
+//	@Autowired
+//	MenuService menuService;
+//	@Override
+//	public void run(String... args) throws Exception {
 
 //		Address address = new Address("JPNAGARA","GURUGRAM",201240,"Bihar");
 //
@@ -92,4 +92,4 @@ public class HotelrestapiApplication implements CommandLineRunner {
 //		menuService.getMenusByHotel("TAJ")
 //				.forEach((m)->System.out.println(m.getMenuName()+" "+m.getPrice()));
 	}
-}
+

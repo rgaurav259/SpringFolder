@@ -5,6 +5,8 @@ import com.example.backend.backendrestapireact.services.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
@@ -26,4 +28,8 @@ public class EmployeeController {
     }
 
 
+    @GetMapping("/employees")
+    public List<Employee> getAllEmployees(){
+        return employeeService.getAllEmployees();
+    }
 }

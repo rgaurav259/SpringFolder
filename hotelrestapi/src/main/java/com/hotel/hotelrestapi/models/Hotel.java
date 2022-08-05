@@ -1,5 +1,6 @@
 package com.hotel.hotelrestapi.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -19,13 +20,17 @@ public class Hotel {
     private Integer hotelId;
     private String hotelName;
 
+
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id")
     private Address address;
 
+
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER)
     @JoinColumn(name = "hotel_id")
     private Set<Menu> menuList;
+
+
 
     @ManyToMany(cascade = CascadeType.MERGE,fetch = FetchType.EAGER)
     @JoinTable( name = "hotel_delivery",

@@ -24,7 +24,7 @@ public class HotelController {
 
     Hotel newHotel = hotelService.addHotel(hotel);
     HttpHeaders header=new HttpHeaders();
-    header.add("Desc","one hotel added");
+    header.add("desc","one hotel added");
     return ResponseEntity.ok().headers(header).body(newHotel);
 
 }
@@ -40,7 +40,7 @@ public class HotelController {
     public ResponseEntity<Hotel> getHotelById(@PathVariable int hotelId){
     Hotel newhotel = hotelService.getHotelById(hotelId);
     HttpHeaders header= new HttpHeaders();
-    header.add("Desc","getting one hotel instance");
+    header.add("desc","getting one hotel instance");
     return ResponseEntity.ok().headers(header).body(newhotel);
     }
 
@@ -50,18 +50,18 @@ public class HotelController {
         hotelService.deleteHotel(hotelId);
         return ResponseEntity.ok().build();
     }
-    @GetMapping("/hotels/hotel-by-city/{city}")
+    @GetMapping("/hotels/hotels-by-city/{city}")
     public ResponseEntity<List<Hotel>>  getHotelsByCity(@PathVariable String city){
         List<Hotel> hotelList = hotelService.getHotelsByCity(city);
         return ResponseEntity.ok().body(hotelList);
 
     }
-    @GetMapping("/hotels/hotel-by-menu/{menuName}")
+    @GetMapping("/hotels/hotels-by-menu/{menuName}")
    public ResponseEntity<List<Hotel>>  getHotelsByMenu(@PathVariable String menuName){
         List<Hotel> hotelsByMenu = hotelService.getHotelsByMenu(menuName);
         return ResponseEntity.ok().body(hotelsByMenu);
     }
-    @GetMapping("/hotels/hotel-by-Delivery/{partnerName}")
+    @GetMapping("/hotels/hotel-by-delivery/{partnerName}")
     public ResponseEntity<List<Hotel>> getHotelsByDelivery(@PathVariable String partnerName){
         List<Hotel> hotelsByDelivery = hotelService.getHotelsByDelivery(partnerName);
         return ResponseEntity.ok().body(hotelsByDelivery);
@@ -77,9 +77,8 @@ public class HotelController {
     @GetMapping("/hotels/hotel-by-location/{location}/menuName/{menuName}")
     public ResponseEntity<List<Hotel>> getHotelsByLocationAndMenu(@PathVariable String location, @PathVariable String menuName){
 
-        List<Hotel> hotelsByMenu = hotelService.getHotelsByMenu(menuName);
-
-        return ResponseEntity.ok().body(hotelsByMenu);
+        List<Hotel> hotelList = hotelService.getHotelsByMenu(menuName);
+        return ResponseEntity.ok().body(hotelList);
     }
 
 

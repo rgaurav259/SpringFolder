@@ -1,6 +1,7 @@
 package com.hotel.hotelrestapi.models;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -24,6 +25,7 @@ public class Delivery {
     private double charges;
 
     @ManyToMany(mappedBy = "delivery")
+    @JsonIgnore
     private Set<Hotel> hotelList = new HashSet<>();
 
 
