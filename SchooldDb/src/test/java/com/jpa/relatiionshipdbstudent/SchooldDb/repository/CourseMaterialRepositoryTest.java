@@ -39,7 +39,7 @@ class CourseMaterialRepositoryTest {
     @Test
     public void printAllCourseMaterial(){
 
-        List<CourseMaterial> courseMaterialList=courseMaterialRepository.findAll();
+        List<CourseMaterial> courseMaterialList = courseMaterialRepository.findAll();
         System.out.println("courseMaterialList = " + courseMaterialList);
 
     }
