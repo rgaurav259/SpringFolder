@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/StringPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/StringReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/security/ApplicationSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/student/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/MaxArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/MinArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/MinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/PrintingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/contact-service-micro/src/main/java/com/user/micro/contactservicemicro/controller/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/contact-service-micro/src/main/java/com/user/micro/contactservicemicro/entity/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/contact-service-micro/src/main/java/com/user/micro/contactservicemicro/service/ContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/contact-service-micro/src/main/java/com/user/micro/contactservicemicro/service/ContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/contact-service-micro/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/user-service-micro/src/main/java/com/user/micro/userservicemicro/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/user-service-micro/src/main/java/com/user/micro/userservicemicro/entity/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/user-service-micro/src/main/java/com/user/micro/userservicemicro/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/user-service-micro/src/main/java/com/user/micro/userservicemicro/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/user-service-micro/src/main/java/com/user/micro/userservicemicro/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MicroServices/user-service-micro/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/security/ApplicationUserPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/security/ApplicationUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/security/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ListExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ListExample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/ListExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/ListExample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurityAmigoScode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/security/ApplicationSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurityAmigoScode/src/main/java/com/example/SpringSecurityAmigoScode/security/ApplicationSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/relationshiptable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/SpringFolder/ListExample"
   }
-}</component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="EmpTestMapFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.EmpTestMapFilter" />
+}]]></component>
+  <component name="RunManager" selected="Application.MinArr">
+    <configuration name="MaxArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.MaxArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Stream1.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigableSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Demo.NavigableSetExample" />
+    <configuration name="MinArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.MinArr" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Demo.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Palindrome" />
+    <configuration name="MinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.MinArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Stream1.StreamMapDemo" />
+    <configuration name="PrintingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.PrintingArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Stream1.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.StringReverse" />
+    <configuration name="com.java.Arrayyyy.ArrayUtil1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.ArrayUtil1" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.StringReverse" />
-        <item itemvalue="Application.EmpTestMapFilter" />
-        <item itemvalue="Application.StreamMapDemo" />
-        <item itemvalue="Application.NavigableSetExample" />
+        <item itemvalue="Application.MinArr" />
+        <item itemvalue="Application.MaxArray" />
+        <item itemvalue="Application.MinArray" />
+        <item itemvalue="Application.PrintingArray" />
+        <item itemvalue="Application.com.java.Arrayyyy.ArrayUtil1" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +176,11 @@
           <url>file://$PROJECT_DIR$/com/java/Stream1/EmpTestMapFilter.java</url>
           <line>32</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/CountNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
