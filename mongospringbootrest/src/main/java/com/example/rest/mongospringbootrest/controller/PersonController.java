@@ -3,7 +3,11 @@ package com.example.rest.mongospringbootrest.controller;
 
 import com.example.rest.mongospringbootrest.collection.Person;
 import com.example.rest.mongospringbootrest.service.PersonService;
+import org.bson.Document;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -40,6 +44,33 @@ public class PersonController {
         return personService.getByPersonAge(minAge,maxAge);
 
     }
+
+    //search based on requirement paging also if we don't provide then also get the result
+
+    @GetMapping("/search")
+    public Page<Person> searchPerson(
+            @RequestParam(required = false) String name,
+            @RequestParam(required = false) Integer minAge,
+            @RequestParam(required = false) Integer maxAge,
+            @RequestParam(required = false) String city,
+            @RequestParam(defaultValue = "0") Integer page,
+            @RequestParam(defaultValue = "5") Integer size){
+
+
+        Pageable pageable = PageRequest.of(page,size);
+
+        return personService.search(name,minAge,maxAge,city,pageable);
+
+    }
+
+    @GetMapping("/oldestPerson")
+    public List<Document> getOldestPerson(){
+        return personService.getOldestPersonByCity();
+    }
+
+
+
+
 
 
 
