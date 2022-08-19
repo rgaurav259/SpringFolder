@@ -1,5 +1,6 @@
 package com.example.validationhibernatejavatechie.advice;
 
+import com.example.validationhibernatejavatechie.exception.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -21,6 +22,16 @@ public class ApplicationExceptionHandlerrrr {
             errorMap.put(error.getField(),error.getDefaultMessage());
         });
         return errorMap;
+
+    }
+
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    @ExceptionHandler(UserNotFoundException.class)
+    public Map<String,String> handleBusinessException(UserNotFoundException ex){
+
+        Map<String,String> errormesssage=new HashMap<>();
+        errormesssage.put("errorrMessage",ex.getMessage());
+        return errormesssage;
 
     }
 
