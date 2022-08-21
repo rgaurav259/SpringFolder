@@ -4,12 +4,6 @@ import com.example.jpaDemo.Jpa.Entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
-
-<<<<<<< HEAD
-public interface EmployeeRepositroy extends JpaRepository<Employee,Long> {
-=======
-import java.util.List;
-
 public interface EmployeeRepositroy extends JpaRepository<Employee,Long> {
 
     Employee findByEmpId(Long id);
@@ -22,6 +16,4 @@ public interface EmployeeRepositroy extends JpaRepository<Employee,Long> {
 
     List<Employee> findByName(String name);
 
-
->>>>>>> feature
 }
