@@ -1,0 +1,69 @@
+server:
+  port: 8082
+
+spring:
+  profiles:
+    active: qa
+
+
+
+---
+#create multiple profiles like dev ,local,prod
+#tell spring to which default profile active over here
+
+
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/validationsdb
+    password: gaurav
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+welcome:
+  message: welcome to config property file
+
+
+---
+spring:
+  profiles: qa
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/validationsdb_qa
+    password: gaurav
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+welcome:
+  message: welcome to config property file
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+---
+spring:
+  profiles: prod
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/validationsdb_prod
+    password: gaurav
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+welcome:
+  message: welcome to config property file

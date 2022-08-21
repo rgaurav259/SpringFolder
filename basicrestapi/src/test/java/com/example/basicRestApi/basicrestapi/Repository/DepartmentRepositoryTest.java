@@ -4,13 +4,14 @@ import com.example.basicRestApi.basicrestapi.entity.Department;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.AutoConfigureDataJpa;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 @DataJpaTest
+@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 class DepartmentRepositoryTest {
     @Autowired
     private DepartmentRepository departmentRepository;
@@ -23,7 +24,7 @@ class DepartmentRepositoryTest {
         Department department = Department.builder()
                 .departmentName("MCA")
                 .departmentCode("MCA-101")
-                .departmentAddress("Noida")
+                .departmentAddress("NOIDA")
                 .build();
 
         entityManager.persist(department);
@@ -31,8 +32,8 @@ class DepartmentRepositoryTest {
 
     @Test
     public void whenFindById_thenReturnDepartment(){
-        Department department = departmentRepository.findById(1L).get();
-        assertEquals(department.getDepartmentName(),"Mechanical");
+        Department department = departmentRepository.findById(3L).get();
+        assertEquals(department.getDepartmentName(),"MCA");
 
     }
 
