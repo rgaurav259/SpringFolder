@@ -9,10 +9,13 @@ public enum ApplicationUserPermission {
 
     private final String permission;
 
+    //constructor
     ApplicationUserPermission(String permission) {
         this.permission = permission;
     }
 
+
+    //getter
     public String getPermission(){
         return permission;
     }
