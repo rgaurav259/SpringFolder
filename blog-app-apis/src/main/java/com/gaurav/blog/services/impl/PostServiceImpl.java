@@ -5,12 +5,17 @@ import com.gaurav.blog.entities.Post;
 import com.gaurav.blog.entities.User;
 import com.gaurav.blog.exceptions.ResourceNotFoundException;
 import com.gaurav.blog.payloads.PostDto;
+import com.gaurav.blog.payloads.PostResponse;
 import com.gaurav.blog.repositories.CategoryRepository;
 import com.gaurav.blog.repositories.PostRepo;
 import com.gaurav.blog.repositories.UserRepo;
 import com.gaurav.blog.services.PostService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -52,23 +57,90 @@ public class PostServiceImpl implements PostService {
     }
 
     @Override
-    public Post updatePost(PostDto postDto, Integer postId) {
-        return null;
+    public PostDto updatePost(PostDto postDto, Integer postId) {
+        Post post=   this.postRepo.findById(postId)
+                .orElseThrow(()-> new ResourceNotFoundException
+                        ("post","postId",postId));
+
+        post.setTitle(postDto.getTitle());
+        post.setContent(postDto.getContent());
+        post.setImageName(postDto.getImageName());
+
+        Post save = this.postRepo.save(post);
+        return this.modelMapper.map(save,PostDto.class);
+
     }
 
     @Override
     public void deletePost(Integer postId) {
 
+     Post post=   this.postRepo.findById(postId)
+                .orElseThrow(()-> new ResourceNotFoundException
+                        ("post","postId",postId));
+
+     this.postRepo.delete(post);
+
+
     }
 
     @Override
-    public List<Post> getAllPost() {
-        return null;
+    public PostResponse getAllPost(Integer pageNumber, Integer pageSize, String sortBy, String sortDir) {
+        //using paagination and sorting
+        Sort sort=null;
+        if (sortDir.equalsIgnoreCase("asc")){
+           sort= Sort.by(sortBy).ascending();
+        }else {
+            sort=Sort.by(sortBy).descending();
+        }
+
+        //we can directly return seperate object of postResponse classes object
+
+        Pageable p = PageRequest.of(pageNumber,pageSize, sort);
+
+        Page<Post> pagepost = this.postRepo.findAll(p);
+        List<Post> allPosts =  pagepost.getContent();
+
+        List<PostDto> collectedpostDto = allPosts
+              .stream()
+              .map((post)-> this.modelMapper.map(post,PostDto.class))
+              .collect(Collectors.toList());
+
+        PostResponse postResponse = new PostResponse();
+
+        postResponse.setContent(collectedpostDto);
+        postResponse.setPageNumber(pagepost.getNumber());
+        postResponse.setPageSize(pagepost.getSize());
+        postResponse.setTotalElements(pagepost.getTotalElements());
+
+        postResponse.setTotalPages(pagepost.getTotalPages());
+        postResponse.setLastPage(pagepost.isLast());
+
+
+      return postResponse;
+
+
+
+
+        //without pagination and sorting
+
+//      List<Post> allPosts =  this.postRepo.findAll();
+//      List<PostDto> collectedAllPostDto = allPosts
+//              .stream()
+//              .map((post)-> this.modelMapper.map(post,PostDto.class))
+//              .collect(Collectors.toList());
+//      return collectedAllPostDto;
+
+
     }
 
     @Override
-    public Post getPostById(Integer postId) {
-        return null;
+    public PostDto getPostById(Integer postId) {
+      Post post =  this.postRepo.findById(postId)
+                .orElseThrow(()-> new ResourceNotFoundException
+                        ("postid","postId",postId));
+
+      //convert post to postDTO
+      return this.modelMapper.map(post,PostDto.class);
     }
 
     @Override
@@ -98,7 +170,14 @@ public class PostServiceImpl implements PostService {
     }
 
     @Override
-    public List<Post> searchPosts(String keyword) {
-        return null;
+    public List<PostDto> searchPosts(String keyword) {
+        List<Post> titleContaining = this.postRepo.findByTitleContaining(keyword);
+
+     List<PostDto> postDtos =   titleContaining.stream().map((post)-> this.modelMapper.map(post,PostDto.class)).collect(Collectors.toList());
+
+        return postDtos;
     }
+
+
+
 }
