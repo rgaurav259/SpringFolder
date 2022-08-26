@@ -2,7 +2,7 @@ package com.gaurav.blog.controllers;
 
 
 import com.gaurav.blog.config.AppConstants;
-import com.gaurav.blog.entities.Post;
+
 import com.gaurav.blog.payloads.ApiResponse;
 import com.gaurav.blog.payloads.PostDto;
 import com.gaurav.blog.payloads.PostResponse;
