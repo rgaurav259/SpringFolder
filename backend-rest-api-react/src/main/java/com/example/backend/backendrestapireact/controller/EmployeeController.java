@@ -2,7 +2,7 @@ package com.example.backend.backendrestapireact.controller;
 
 import com.example.backend.backendrestapireact.model.Employee;
 import com.example.backend.backendrestapireact.services.EmployeeService;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
