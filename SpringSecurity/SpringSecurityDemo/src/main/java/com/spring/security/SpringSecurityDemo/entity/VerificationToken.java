@@ -11,7 +11,6 @@ import java.util.Date;
 @Entity
 @Data
 @NoArgsConstructor
-
 public class VerificationToken {
 
     //expiration time 10 minutes;
@@ -21,9 +20,7 @@ public class VerificationToken {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String token;
-
     private Date expirationTime;
 
     @OneToOne(fetch = FetchType.EAGER)
@@ -42,7 +39,7 @@ public class VerificationToken {
         this.expirationTime =calculateExpirationDate(EXPIRATION_TIME);
     }
 
-    //another constructor
+    //another constructor overloaded
     public VerificationToken(String token){
         super();
         this.token = token;
