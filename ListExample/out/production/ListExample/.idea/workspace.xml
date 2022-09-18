@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/stream/StreamPracticeExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/stream/MinAndMaxUsing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/service/GroupUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/service/GroupUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +45,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/ListExample&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gaavvkkkak/Downloads/intellij-spring-assistant-1.0.6.zip&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StreamPracticeExample1">
-    <configuration name="FileHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.exceptionExample.FileHandling" />
+  <component name="RunManager" selected="Application.MinAndMaxUsing">
+    <configuration name="DuplicateValueCheckedUsingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.stream.DuplicateValueCheckedUsingStream" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.exceptionExample.*" />
+          <option name="PATTERN" value="com.java.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericListPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.exceptionExample.GenericListPractice" />
+    <configuration name="EvenAndOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.stream.EvenAndOdd" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.exceptionExample.*" />
+          <option name="PATTERN" value="com.java.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMethodList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.exceptionExample.GenericMethodList" />
+    <configuration name="MinAndMaxUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.stream.MinAndMaxUsing" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.exceptionExample.*" />
+          <option name="PATTERN" value="com.java.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.MoveZeros" />
+    <configuration name="NumberStartsWithPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.stream.NumberStartsWithPrefix" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Arrayyyy.*" />
+          <option name="PATTERN" value="com.java.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPracticeExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.stream.StreamPracticeExample1" />
+    <configuration name="SquareOfNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.stream.SquareOfNumbers" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -111,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamPracticeExample1" />
-        <item itemvalue="Application.GenericMethodList" />
-        <item itemvalue="Application.GenericListPractice" />
-        <item itemvalue="Application.FileHandling" />
-        <item itemvalue="Application.MoveZeros" />
+        <item itemvalue="Application.MinAndMaxUsing" />
+        <item itemvalue="Application.DuplicateValueCheckedUsingStream" />
+        <item itemvalue="Application.NumberStartsWithPrefix" />
+        <item itemvalue="Application.EvenAndOdd" />
+        <item itemvalue="Application.SquareOfNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +214,34 @@
           <url>file://$PROJECT_DIR$/com/java/exceptionExample/GenericMethodList.java</url>
           <line>31</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/stream/AvgOfNumUsingStream.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/stream/AvgOfNumUsingStream.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/stream/AvgOfNumUsingStream.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/stream/EvenAndOdd.java</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/stream/EvenAndOdd.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
