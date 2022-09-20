@@ -2,20 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/stream/GetSkipLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/stream/MinAndMaxUsing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/stream/SecondHighestNumberPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/stream/SortingAscDesc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/service/GroupUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/service/GroupUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/exceptionHandling/CheckedExceptionHandlerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/exceptionHandling/ExceptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/exceptionHandling/GenericExceptionConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/lambdaWithStream/ComparatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/lambdaWithStream/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/lambdaWithStream/RunnableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/Controller/CloudVendorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/Model/CloudVendor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/Repository/CloudVendorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/Response/ResponseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/exception/CloudVendorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/exception/CloudVendorExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/exception/CloudVendorNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/service/CloudVendorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/main/java/com/cloudVendor/cloudVendorApi/service/Impl/CloudServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/test/java/com/cloudVendor/cloudVendorApi/Repository/CloudVendorRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/test/java/com/cloudVendor/cloudVendorApi/service/Impl/CloudServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloudVendorApi/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/email/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/token/ConfirmationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/token/ConfirmationTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/token/ConfirmationTokenService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/appUser/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/appUser/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/appUser/AppUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/appUser/AppUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../register-login-email/src/main/java/com/example/user/login/registerloginemail/registration/RegistrationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,20 +69,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/SpringFolder/RestApiPlusTsting",
+    "last_opened_file_path": "C:/SpringFolder/ListExample",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SecondHighestNumberPrint">
-    <configuration name="DuplicateValueCheckedUsingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.stream.DuplicateValueCheckedUsingStream" />
+  <component name="RunManager" selected="Application.GenericExceptionConsumer">
+    <configuration name="ComparatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.lambdaWithStream.ComparatorExample" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.stream.*" />
+          <option name="PATTERN" value="com.java.lambdaWithStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetSkipLimit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.stream.GetSkipLimit" />
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.lambdaWithStream.Example1" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.stream.*" />
+          <option name="PATTERN" value="com.java.lambdaWithStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinAndMaxUsing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.stream.MinAndMaxUsing" />
+    <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.exceptionHandling.ExceptionExample" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.stream.*" />
+          <option name="PATTERN" value="com.java.exceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondHighestNumberPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.stream.SecondHighestNumberPrint" />
+    <configuration name="GenericExceptionConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.exceptionHandling.GenericExceptionConsumer" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.stream.*" />
+          <option name="PATTERN" value="com.java.exceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingAscDesc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.stream.SortingAscDesc" />
+    <configuration name="RunnableExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.lambdaWithStream.RunnableExample" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.stream.*" />
+          <option name="PATTERN" value="com.java.lambdaWithStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SecondHighestNumberPrint" />
-        <item itemvalue="Application.GetSkipLimit" />
-        <item itemvalue="Application.SortingAscDesc" />
-        <item itemvalue="Application.MinAndMaxUsing" />
-        <item itemvalue="Application.DuplicateValueCheckedUsingStream" />
+        <item itemvalue="Application.GenericExceptionConsumer" />
+        <item itemvalue="Application.ExceptionExample" />
+        <item itemvalue="Application.ComparatorExample" />
+        <item itemvalue="Application.RunnableExample" />
+        <item itemvalue="Application.Example1" />
       </list>
     </recent_temporary>
   </component>
