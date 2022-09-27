@@ -2,34 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/Cattt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/GenericBoundsType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/GenericMainMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/GenericclassDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Generics/Genericmain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/java/com/example/jwtdemo2/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/java/com/example/jwtdemo2/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/java/com/example/jwtdemo2/model/JwtRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/java/com/example/jwtdemo2/model/JwtResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/java/com/example/jwtdemo2/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/java/com/example/jwtdemo2/utility/JWTUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwt-demo2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/controller/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/FunctionalProgramming/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/FunctionalProgramming/_Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Optional/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Optional/EkartDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Optional/OptionalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloudVendorApi/src/test/java/com/cloudVendor/cloudVendorApi/service/Impl/CloudServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cloudVendorApi/src/test/java/com/cloudVendor/cloudVendorApi/service/Impl/CloudServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/JwtDemo1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/JwtDemo1Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/java/com/example/jwtDemo1/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwtDemo1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jwtDemo1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,35 +41,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/ListExample&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/SpringFolder/reactive-webflux-programming",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericMainMethod">
-    <configuration name="ExceptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.exceptionHandling.ExceptionExample" />
+  <component name="RunManager" selected="Application.OptionalDemo">
+    <configuration name="FindDuplicateUsingLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.FindDuplicateUsingLoop" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.exceptionHandling.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericExceptionConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.exceptionHandling.GenericExceptionConsumer" />
+    <configuration name="FindDuplicateUsingSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.FindDuplicateUsingSet" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.exceptionHandling.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Generics.GenericMainMethod" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.FunctionalProgramming.Main" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Generics.*" />
+          <option name="PATTERN" value="com.java.FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericclassDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Generics.GenericclassDemo1" />
+    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Optional.OptionalDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Generics.*" />
+          <option name="PATTERN" value="com.java.Optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Genericmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Generics.Genericmain" />
+    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.FunctionalProgramming._Function" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Generics.*" />
+          <option name="PATTERN" value="com.java.FunctionalProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericMainMethod" />
-        <item itemvalue="Application.Genericmain" />
-        <item itemvalue="Application.GenericclassDemo1" />
-        <item itemvalue="Application.GenericExceptionConsumer" />
-        <item itemvalue="Application.ExceptionExample" />
+        <item itemvalue="Application.OptionalDemo" />
+        <item itemvalue="Application._Function" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FindDuplicateUsingSet" />
+        <item itemvalue="Application.FindDuplicateUsingLoop" />
       </list>
     </recent_temporary>
   </component>
