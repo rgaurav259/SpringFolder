@@ -25,8 +25,8 @@ public class OptionalDemo {
             Optional<Object> emptyOptional = Optional.empty();
             System.out.println(emptyOptional);
 
-            Optional<String> emailOptional = (Optional<String>) Optional.of(customer.getEmail());
-            System.out.println(emailOptional);
+            //Optional<String> emailOptional = (Optional<String>) Optional.of(customer.getEmail());
+           // System.out.println(emailOptional);
 
            // Optional<String> emailOptional2 = Optional.ofNullable(customer.getEmail());
        /* if(emailOptional2.isPresent()){

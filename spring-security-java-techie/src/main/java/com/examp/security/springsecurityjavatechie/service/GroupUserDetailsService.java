@@ -19,7 +19,6 @@ public class GroupUserDetailsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Optional<User> user = userRepository.findByUserName(username);
 
-
         return user.map(GroupUserDetails::new)
                 .orElseThrow(()->new UsernameNotFoundException(username+"doesn't exist"));
 

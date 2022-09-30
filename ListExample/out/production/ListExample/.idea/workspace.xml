@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/FunctionalProgramming/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/FunctionalProgramming/_Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Optional/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Optional/EkartDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Optional/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/entity/PostStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/repository/PostRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/functionalPrpgramming&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/reactive-webflux-programming&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -63,13 +59,13 @@
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OptionalDemo">
-    <configuration name="FindDuplicateUsingLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.FindDuplicateUsingLoop" />
+  <component name="RunManager" selected="Application.Anagram">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Anagram" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Arrayyyy.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.OptionalDemo" />
         <item itemvalue="Application._Function" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.FindDuplicateUsingSet" />
-        <item itemvalue="Application.FindDuplicateUsingLoop" />
       </list>
     </recent_temporary>
   </component>
