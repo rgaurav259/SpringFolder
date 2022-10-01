@@ -1,6 +1,7 @@
 package com.spring.security.SpringSecurityDemo.controller;
 
 import com.spring.security.SpringSecurityDemo.entity.User;
+import com.spring.security.SpringSecurityDemo.entity.VerificationToken;
 import com.spring.security.SpringSecurityDemo.event.RegistrationCompleteEvent;
 import com.spring.security.SpringSecurityDemo.model.UserModel;
 import com.spring.security.SpringSecurityDemo.service.UserService;
@@ -20,7 +21,7 @@ public class RegistrationController {
     private ApplicationEventPublisher publisher;
 
 
-    @PostMapping( "/register")
+    @PostMapping("/register")
     public String registerUser(@RequestBody UserModel userModel ,
                                final HttpServletRequest request){
        User user = userService.registerUser(userModel);
@@ -42,6 +43,28 @@ public class RegistrationController {
         return "Bad User";
     }
 
+
+    @GetMapping("/resendVerifyToken")
+    public String resendVerifyToken(@RequestParam("token") String oldToken,
+                                    HttpServletRequest request){
+        VerificationToken verificationToken =
+                userService.generateNewVerificationToken(oldToken);
+
+        User user = verificationToken.getUser();
+        resendVerificationTokenMail(user,applicationUrl(request));
+        return "Verification Link send..";
+
+    }
+
+    private void resendVerificationTokenMail(User user, String applicationUrl) {
+
+        String url = applicationUrl
+                +"verifyRegistration?token="+token;
+
+        //sendverificationEmail
+        log.info("click the link to verify your account: {}",url);
+
+    }
 
     private String applicationUrl(HttpServletRequest request) {
         return "http://"+
