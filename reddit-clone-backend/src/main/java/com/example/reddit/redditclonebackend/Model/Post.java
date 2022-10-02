@@ -30,10 +30,13 @@ import static javax.persistence.GenerationType.IDENTITY;
         @Lob
         private String description;
         private Integer voteCount = 0;
+
         @ManyToOne(fetch = LAZY)
         @JoinColumn(name = "userId", referencedColumnName = "userId")
         private User user;
+
         private Instant createdDate;
+
         @ManyToOne(fetch = LAZY)
         @JoinColumn(name = "id", referencedColumnName = "id")
         private Subreddit subreddit;
