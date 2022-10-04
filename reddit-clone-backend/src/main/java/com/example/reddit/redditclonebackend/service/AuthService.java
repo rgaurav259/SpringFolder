@@ -3,12 +3,15 @@ package com.example.reddit.redditclonebackend.service;
 import com.example.reddit.redditclonebackend.Model.NotificationEmail;
 import com.example.reddit.redditclonebackend.Model.User;
 import com.example.reddit.redditclonebackend.Model.VerificationToken;
+import com.example.reddit.redditclonebackend.dto.LoginRequest;
 import com.example.reddit.redditclonebackend.dto.RegisterRequest;
 import com.example.reddit.redditclonebackend.exeptions.SpringRedditException;
 import com.example.reddit.redditclonebackend.repository.UserRepository;
 import com.example.reddit.redditclonebackend.repository.VerificationTokenRepository;
 import lombok.AllArgsConstructor;
 
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -23,11 +26,12 @@ public class AuthService {
 //constructor based injection
     //@Autowired
     private  final PasswordEncoder passwordEncoder;
-
     //@Autowired
     private final UserRepository userRepository;
     private final VerificationTokenRepository verificationTokenRepository;
     private final MailService mailService;
+
+    private final AuthenticationManager authenticationManager;
 
 
     @Transactional
@@ -84,5 +88,12 @@ public class AuthService {
 
         user.setEnabled(true);
         userRepository.save(user);
+    }
+
+    public void login(LoginRequest loginRequest) {
+
+        authenticationManager.
+                authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getUsername(),
+                        loginRequest.getPassword()));
     }
 }
