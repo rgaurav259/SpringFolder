@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/entity/PostStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-security-java-techie/src/main/java/com/examp/security/springsecurityjavatechie/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/FindLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/GenerateRandomNumbr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/StringEqualsCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/SumOfAllDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/SumOfArrayUsingInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/SumOfElementsInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Optional/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Optional/OptionalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Optional/OptionalDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Optional/OptionalDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +65,9 @@
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Anagram">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Anagram" />
+  <component name="RunManager" selected="Application.SumOfArrayUsingInput">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Factorial" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindDuplicateUsingSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.FindDuplicateUsingSet" />
+    <configuration name="GenerateRandomNumbr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.GenerateRandomNumbr" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Arrayyyy.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.FunctionalProgramming.Main" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.PrimeNumber" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.FunctionalProgramming.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Optional.OptionalDemo" />
+    <configuration name="SumOfArrayUsingInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.SumOfArrayUsingInput" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Optional.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.FunctionalProgramming._Function" />
+    <configuration name="SumOfElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.SumOfElementsInArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.FunctionalProgramming.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.OptionalDemo" />
-        <item itemvalue="Application._Function" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FindDuplicateUsingSet" />
+        <item itemvalue="Application.SumOfArrayUsingInput" />
+        <item itemvalue="Application.SumOfElementsInArray" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.GenerateRandomNumbr" />
+        <item itemvalue="Application.PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -268,6 +270,26 @@
           <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Anagram.java</url>
           <line>20</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Factorial.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Factorial.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
