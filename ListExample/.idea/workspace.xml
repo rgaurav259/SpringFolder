@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/FindLargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/GenerateRandomNumbr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/StringEqualsCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/SumOfAllDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/SumOfArrayUsingInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/SumOfElementsInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/DuplicateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/MaxAndMinFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/MissingArrayNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/MissingArrayOneNumbr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Sorting/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Sorting/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/BasicPrograms/PrintEvenAndOddFromArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PrintEvenAndOddFromArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/SumOfArrayUsingInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/SumOfArrayUsingInput.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +40,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/reactive-webflux-programming&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/SpringFolder/ListExample",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOfArrayUsingInput">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Factorial" />
+  <component name="RunManager" selected="Application.Selection">
+    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Sorting.Bubble" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.DuplicateArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateRandomNumbr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.GenerateRandomNumbr" />
+    <configuration name="MaxAndMinFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.MaxAndMinFromArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.PrimeNumber" />
+    <configuration name="MissingArrayOneNumbr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.MissingArrayOneNumbr" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -105,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfArrayUsingInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.SumOfArrayUsingInput" />
+    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Sorting.Selection" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.SumOfElementsInArray" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.java.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumOfArrayUsingInput" />
-        <item itemvalue="Application.SumOfElementsInArray" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.GenerateRandomNumbr" />
-        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.Selection" />
+        <item itemvalue="Application.DuplicateArray" />
+        <item itemvalue="Application.MaxAndMinFromArray" />
+        <item itemvalue="Application.MissingArrayOneNumbr" />
+        <item itemvalue="Application.Bubble" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +287,41 @@
           <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Factorial.java</url>
           <line>12</line>
           <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/MissingArrayNumber.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/MissingArrayNumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/MissingArrayNumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Sorting/Bubble.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/MaxAndMinFromArray.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/MaxAndMinFromArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/MaxAndMinFromArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
