@@ -46,7 +46,7 @@ public class SecurityFilter  extends OncePerRequestFilter {
 
                 if (isvalidateToken){
                     UsernamePasswordAuthenticationToken authToken =
-                            new UsernamePasswordAuthenticationToken(username,usr.getPassword());
+                            new UsernamePasswordAuthenticationToken(username,usr.getPassword(),usr.getAuthorities());
 
                     authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                     //final object stored in security context with USERDETAILS((((username and password
