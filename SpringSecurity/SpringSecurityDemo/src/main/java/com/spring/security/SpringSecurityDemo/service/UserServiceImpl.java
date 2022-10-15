@@ -13,6 +13,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.Calendar;
+import java.util.Optional;
 import java.util.UUID;
 
 @Service
@@ -103,10 +104,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public String validatePasswordResetToken(String token) {
 
-
-
-        PasswordResetToken passwordResetToken =
-                PasswordResetToken.findByToken(token);
+        PasswordResetToken passwordResetToken = passwordResetTokenRepository.finByToken(token);
         if (passwordResetToken == null) {
             return "invalid ";
         }
@@ -116,13 +114,22 @@ public class UserServiceImpl implements UserService {
 
         if ((passwordResetToken.getExpirationTime().getTime()
                 - cal.getTime().getTime()) <= 0) {
-            verificationTokenRepository.delete(passwordResetToken);
+            passwordResetTokenRepository.delete(passwordResetToken);
             return "expired";
         }
-
-        user.setEnabled(true);
-        userRepository.save(user);
         return "valid";
+    }
+
+    @Override
+    public Optional<User> getUserByPasswordResetToken(String token) {
+        return Optional.ofNullable(passwordResetTokenRepository.finByToken(token).getUser());
+    }
+
+    @Override
+    public void changePassword(User user, String newPassword) {
+        user.setPassword(passwordEncoder.encode(newPassword));
+        userRepository.save(user);
+
     }
 
 }

@@ -4,6 +4,8 @@ import com.spring.security.SpringSecurityDemo.entity.User;
 import com.spring.security.SpringSecurityDemo.entity.VerificationToken;
 import com.spring.security.SpringSecurityDemo.model.UserModel;
 
+import java.util.Optional;
+
 public interface UserService {
     User registerUser(UserModel userModel);
 
@@ -18,4 +20,8 @@ public interface UserService {
     void createPasswordResetTokenForUser(User user, String token);
 
     String validatePasswordResetToken(String token);
+
+    Optional<User> getUserByPasswordResetToken(String token);
+
+    void changePassword(User user, String newPassword);
 }
