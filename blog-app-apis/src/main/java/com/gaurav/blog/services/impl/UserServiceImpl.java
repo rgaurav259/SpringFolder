@@ -1,16 +1,21 @@
 package com.gaurav.blog.services.impl;
 
+import com.gaurav.blog.config.AppConstants;
+import com.gaurav.blog.entities.Role;
 import com.gaurav.blog.entities.User;
 import com.gaurav.blog.exceptions.ResourceNotFoundException;
 import com.gaurav.blog.payloads.UserDto;
+import com.gaurav.blog.repositories.RoleRepository;
 import com.gaurav.blog.repositories.UserRepo;
 import com.gaurav.blog.services.UserService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -21,7 +26,30 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private ModelMapper modelMapper;
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private RoleRepository roleRepository;
+
+
+    @Override
+    public UserDto registerNewUser(UserDto userDto) {
+
+        User user = modelMapper.map(userDto, User.class);
+
+        //encoded the password
+        user.setPassword(passwordEncoder.encode(user.getPassword()));
+
+        //roles
+        Role role = roleRepository.findById(AppConstants.NORMAL_USER).get();
+
+        user.getRoles().add(role);
+
+        User newUser = userRepo.save(user);
+
+        return modelMapper.map(newUser,UserDto.class);
+    }
 
     @Override
     public UserDto createUser(UserDto userDto) {

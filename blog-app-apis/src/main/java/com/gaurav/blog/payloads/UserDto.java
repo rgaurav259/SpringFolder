@@ -1,9 +1,12 @@
 package com.gaurav.blog.payloads;
 
+import com.gaurav.blog.entities.Role;
 import lombok.*;
 
 import javax.persistence.Column;
 import javax.validation.constraints.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -33,5 +36,8 @@ public class UserDto {
 //    @NotNull
     @NotEmpty
     private String about;
+
+
+    private Set<RoleDto> roles = new HashSet<>();
 
 }
