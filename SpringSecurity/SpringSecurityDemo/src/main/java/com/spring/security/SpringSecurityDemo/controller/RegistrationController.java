@@ -26,13 +26,9 @@ public class RegistrationController {
 
 
     @PostMapping("/register")
-    public String registerUser(@RequestBody UserModel userModel ,
-                               final HttpServletRequest request){
+    public String registerUser(@RequestBody UserModel userModel ,final HttpServletRequest request){
        User user = userService.registerUser(userModel);
-       publisher.publishEvent(new RegistrationCompleteEvent(
-               user,
-               applicationUrl(request)
-       ));
+       publisher.publishEvent(new RegistrationCompleteEvent(user, applicationUrl(request)));
 
        return "Success";
     }
@@ -49,10 +45,8 @@ public class RegistrationController {
 
 
     @GetMapping("/resendVerifyToken")
-    public String resendVerificationToken(@RequestParam("token") String oldToken,
-                                    HttpServletRequest request){//httpservlet geneates url again
-        VerificationToken verificationToken =
-                userService.generateNewVerificationToken(oldToken);
+    public String resendVerificationToken(@RequestParam("token") String oldToken, HttpServletRequest request){//httpservlet geneates url again
+        VerificationToken verificationToken = userService.generateNewVerificationToken(oldToken);
 
         User user = verificationToken.getUser();
         resendVerificationTokenMail(user,applicationUrl(request),verificationToken);
