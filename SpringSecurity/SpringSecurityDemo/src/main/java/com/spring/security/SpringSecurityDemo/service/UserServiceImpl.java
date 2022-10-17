@@ -93,8 +93,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void createPasswordResetTokenForUser(User user, String token) {
 
-        PasswordResetToken passwordResetToken =
-                new PasswordResetToken(user,token);
+        PasswordResetToken passwordResetToken = new PasswordResetToken(user,token);
 
         passwordResetTokenRepository.save(passwordResetToken);
 
@@ -104,7 +103,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public String validatePasswordResetToken(String token) {
 
-        PasswordResetToken passwordResetToken = passwordResetTokenRepository.finByToken(token);
+        PasswordResetToken passwordResetToken = passwordResetTokenRepository.findByToken(token);
         if (passwordResetToken == null) {
             return "invalid ";
         }
@@ -122,7 +121,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public Optional<User> getUserByPasswordResetToken(String token) {
-        return Optional.ofNullable(passwordResetTokenRepository.finByToken(token).getUser());
+        return Optional.ofNullable(passwordResetTokenRepository.findByToken(token).getUser());
     }
 
     @Override
@@ -130,6 +129,11 @@ public class UserServiceImpl implements UserService {
         user.setPassword(passwordEncoder.encode(newPassword));
         userRepository.save(user);
 
+    }
+
+    @Override
+    public boolean checkIfValidOldPassword(User user, String oldPassword) {
+        return passwordEncoder.matches(oldPassword,user.getPassword());
     }
 
 }
