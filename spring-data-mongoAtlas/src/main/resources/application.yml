@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri:mongodb+srv://admin:password@gauravtechie.hxkvsnh.mongodb.net/?retryWrites=true&w=majority
+    database: Task
