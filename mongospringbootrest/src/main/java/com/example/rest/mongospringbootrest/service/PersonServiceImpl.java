@@ -54,6 +54,7 @@ public class PersonServiceImpl implements PersonService{
 
         if (name !=null && !name.isEmpty()){
             criteria.add(Criteria.where("firstName").regex(name,"i"));
+            //regex i means incasesensitive whatever value will be provided
         }
 
         if (minAge !=null && maxAge !=null){

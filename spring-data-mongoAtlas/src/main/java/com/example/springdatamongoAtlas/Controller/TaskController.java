@@ -2,7 +2,6 @@ package com.example.springdatamongoAtlas.Controller;
 
 import com.example.springdatamongoAtlas.Model.Task;
 import com.example.springdatamongoAtlas.Service.TaskService;
-import com.example.springdatamongoAtlas.Service.TaskServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +21,8 @@ public class TaskController {
     }
 
     @GetMapping
-    public List<Task> getTasks(){
+    @ResponseStatus(HttpStatus.OK)
+    public List<Task> getAllTasks(){
         return taskService.findAllTasks();
     }
 
@@ -33,7 +33,7 @@ public class TaskController {
     }
 
     @GetMapping("/severity/{severity}")
-    public List<Task> findTaskUsingSeverity(@PathVariable Integer severity){
+    public List<Task> findTaskUsingSeverity(@PathVariable("severity") Integer severity){
         return taskService.getTaskBySeverity(severity);
     }
 
