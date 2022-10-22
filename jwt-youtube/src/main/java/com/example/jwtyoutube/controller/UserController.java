@@ -16,7 +16,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-//it will save data in database
+//it will save data in database by default because post construct
     @PostConstruct
     public void initRolesAndUsers(){
         userService.initRolesAndUser();

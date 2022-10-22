@@ -5,6 +5,7 @@ import com.example.jwtyoutube.dao.UserDao;
 import com.example.jwtyoutube.entity.Role;
 import com.example.jwtyoutube.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -18,6 +19,9 @@ public class UserService {
     private UserDao userDao;
     @Autowired
     private RoleDao roleDao;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     public User registerNewUser(User user){
 
@@ -45,7 +49,7 @@ public class UserService {
         adminUser.setUserFirstName("admin");
         adminUser.setUserLastName("admin");
         adminUser.setUserName("admin123");
-        adminUser.setUserPassword("admin@pass");
+        adminUser.setUserPassword(getEncodedPassword("admin@pass"));
         Set<Role> adminRoles = new HashSet<>();
         adminRoles.add(adminRole);
         adminUser.setRole(adminRoles);
@@ -58,7 +62,7 @@ public class UserService {
         user.setUserFirstName("raj");
         user.setUserLastName("sharma");
         user.setUserName("raj123");
-        user.setUserPassword("raj@pass");
+        user.setUserPassword(getEncodedPassword("raj@pass"));
         Set<Role> userRoles = new HashSet<>();
         userRoles.add(userRole);
         user.setRole(userRoles);
@@ -67,6 +71,9 @@ public class UserService {
 
     }
 
+    public String getEncodedPassword(String password){
+        return passwordEncoder.encode(password);
+    }
 
 
 }
