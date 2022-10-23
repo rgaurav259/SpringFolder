@@ -3,6 +3,7 @@ package com.example.jwtyoutube.controller;
 import com.example.jwtyoutube.entity.User;
 import com.example.jwtyoutube.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -29,13 +30,15 @@ public class UserController {
     }
 
     @GetMapping({"/forAdmin"})
-    private String forAdmin(){
-        return "this url is only accessible for admin";
+    @PreAuthorize("hasRole('Admin')")
+    public String forAdmin(){
+        return "This URL is only accessible to the admin";
     }
 
     @GetMapping({"/forUser"})
-    private String forUser(){
-        return "this url is only accessible for forUser";
+    @PreAuthorize("hasAnyRole('User','Admin')")
+    public String forUser(){
+        return "This URL is only accessible to the user";
     }
 
 }

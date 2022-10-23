@@ -15,10 +15,12 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
 public class JwtService implements UserDetailsService {
 
     @Autowired
@@ -78,9 +80,9 @@ public class JwtService implements UserDetailsService {
 
         }catch (DisabledException e){
 
-            throw  new Exception("user is disabled");
+            throw  new Exception("user is disabled",e);
         }catch (BadCredentialsException e){
-            throw new Exception("bad credentials from user");
+            throw new Exception("bad credentials from user",e);
         }
     }
 }

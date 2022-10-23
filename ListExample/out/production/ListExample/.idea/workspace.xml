@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/SearchElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/SearchElementLinearArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Sorting/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Sorting/BinarySearchPracice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/multithreading/MainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/multithreading/ThreadRunnabbleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/IntermediateOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/LimitSkipDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/ReduceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/SequentialStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Sorting/Bubble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Sorting/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Sorting/Bubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Sorting/Bubble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Sorting/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Sorting/Selection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/JwtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/JwtController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/service/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/ListExample&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/CQRS Folder/product-service&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -65,13 +68,13 @@
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainThread">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sorting.BinarySearch" />
+  <component name="RunManager" selected="Application.ReduceDemo">
+    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.ClientDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Sorting.*" />
+          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchPracice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sorting.BinarySearchPracice" />
+    <configuration name="IntermediateOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.IntermediateOperation" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Sorting.*" />
+          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sorting.Bubble" />
+    <configuration name="LimitSkipDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.LimitSkipDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Sorting.*" />
+          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.multithreading.MainThread" />
+    <configuration name="ReduceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.ReduceDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.multithreading.*" />
+          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sorting.Selection" />
+    <configuration name="SequentialStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.SequentialStream" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Sorting.*" />
+          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainThread" />
-        <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.Bubble" />
-        <item itemvalue="Application.BinarySearchPracice" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.ReduceDemo" />
+        <item itemvalue="Application.LimitSkipDemo" />
+        <item itemvalue="Application.IntermediateOperation" />
+        <item itemvalue="Application.SequentialStream" />
+        <item itemvalue="Application.ClientDemo" />
       </list>
     </recent_temporary>
   </component>
