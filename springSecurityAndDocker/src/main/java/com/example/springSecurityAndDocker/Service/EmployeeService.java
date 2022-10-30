@@ -7,7 +7,7 @@ import java.util.List;
 public interface EmployeeService {
     //save an employees
 
-    void addEmployee(Employee employee);
+    Employee addEmployee(Employee employee);
 
     //Get employee
 
@@ -17,7 +17,7 @@ public interface EmployeeService {
     Employee findById(Integer id);
 
     //update employee
-    void updateEmployee(Employee employee);
+    boolean updateEmployee(Employee employee, Integer id);
 
     //delete employee
     Boolean deleteById(Integer id);

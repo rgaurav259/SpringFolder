@@ -4,11 +4,13 @@ public class Emp {
     Integer eno;
     String ename;
     Integer salary;
+    Integer age;
 
-    public Emp(Integer eno, String ename, Integer salary) {
+    public Emp(Integer eno, String ename, Integer salary, Integer age) {
         this.eno = eno;
         this.ename = ename;
         this.salary = salary;
+        this.age = age;
     }
 
     public Integer getEno() {
@@ -35,12 +37,21 @@ public class Emp {
         this.salary = salary;
     }
 
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Emp{" +
                 "eno=" + eno +
                 ", ename='" + ename + '\'' +
                 ", salary=" + salary +
+                ", age=" + age +
                 '}';
     }
 }

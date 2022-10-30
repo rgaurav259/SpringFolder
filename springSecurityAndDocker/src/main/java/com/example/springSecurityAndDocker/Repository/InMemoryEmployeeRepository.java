@@ -36,7 +36,18 @@ public class InMemoryEmployeeRepository {
     }
 
     // Assignment
-    public void updateEmployee(Employee employee) {}
+    public boolean updateEmployee(Employee employee, Integer id) {
+        Employee employee1
+                = DATABASE.stream().filter(em ->id.equals(em.getId()))
+                .findFirst()
+                .orElseThrow();
+        employee1.setEmail(employee.getEmail());
+        employee1.setFirstName(employee1.getFirstName());
+        employee1.setLastName(employee.getLastName());
+        return DATABASE.add(employee1);
+
+
+    }
 
     // Delete employee
     public Boolean deleteById(Integer id) {

@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/ClientDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/ClientEmpData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/IntermediateOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/LimitSkipDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/MapToListConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/ReduceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/SequentialStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/AbcPattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/DecreasingTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/Diamong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/HillPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/IncreasingTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/LeftTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/ReverseHill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/RightTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Patterns/diamond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/SampleDemoUsingMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/sreenuTechDemo/ClientEmpData.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/ClientEmpData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/sreenuTechDemo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/sreenuTechDemo/Emp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/configuration/WebSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/JwtController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/JwtController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/service/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/java/com/example/jwtyoutube/service/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jwt-youtube/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jwt-youtube/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/sreenuTechDemo/ClientEmpData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/sreenuTechDemo/ClientEmpData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/sreenuTechDemo/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/sreenuTechDemo/Emp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,36 +49,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/CQRS Folder/product-service&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/SpringFolder/basicrestapi",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.java.sreenuTechDemo" />
       <recent name="com.java.multithreading" />
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientEmpData">
-    <configuration name="ClientEmpData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.ClientEmpData" />
+  <component name="RunManager" selected="Application.Diamong">
+    <configuration name="Diamong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Patterns.Diamong" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
+          <option name="PATTERN" value="com.java.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LimitSkipDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.LimitSkipDemo" />
+    <configuration name="HillPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Patterns.HillPattern" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
+          <option name="PATTERN" value="com.java.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.MapDemo" />
+    <configuration name="LeftTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Patterns.LeftTriangle" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
+          <option name="PATTERN" value="com.java.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapToListConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.MapToListConversion" />
+    <configuration name="ReverseHill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Patterns.ReverseHill" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
+          <option name="PATTERN" value="com.java.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.sreenuTechDemo.ReduceDemo" />
+    <configuration name="RightTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Patterns.RightTriangle" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.sreenuTechDemo.*" />
+          <option name="PATTERN" value="com.java.Patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientEmpData" />
-        <item itemvalue="Application.MapToListConversion" />
-        <item itemvalue="Application.MapDemo" />
-        <item itemvalue="Application.ReduceDemo" />
-        <item itemvalue="Application.LimitSkipDemo" />
+        <item itemvalue="Application.Diamong" />
+        <item itemvalue="Application.ReverseHill" />
+        <item itemvalue="Application.HillPattern" />
+        <item itemvalue="Application.RightTriangle" />
+        <item itemvalue="Application.LeftTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -357,6 +358,21 @@
           <url>file://$PROJECT_DIR$/com/java/Sorting/BinarySearch.java</url>
           <line>12</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Patterns/AbcPattern1.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Patterns/AbcPattern1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Patterns/AbcPattern1.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
