@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/basics/NonRepeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/basics/RemoveDuplicateCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/basics/RemoveSpecialCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/basics/StringOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/basics/StringReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/basics/StringSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/CountNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/DivisibleOf5And7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/EvenAndOddCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/RaisePower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/ReverseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/ReverseStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/SeriesAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/Swapping2Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/basics/printVlaue1And50AndContinue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,9 +67,9 @@
       <recent name="com.java.Generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NonRepeatingCharacter">
-    <configuration name="NonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.basics.NonRepeatingCharacter" />
+  <component name="RunManager" selected="Application.RaisePower">
+    <configuration name="DivisibleOf5And7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.basics.DivisibleOf5And7" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.basics.RemoveDuplicateCharacter" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.basics.Factorial" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveSpecialCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.basics.RemoveSpecialCharacters" />
+    <configuration name="RaisePower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.basics.RaisePower" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.basics.StringOccurrence" />
+    <configuration name="SeriesAnswer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.basics.SeriesAnswer" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.basics.StringSort" />
+    <configuration name="printVlaue1And50AndContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.basics.printVlaue1And50AndContinue" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NonRepeatingCharacter" />
-        <item itemvalue="Application.StringOccurrence" />
-        <item itemvalue="Application.StringSort" />
-        <item itemvalue="Application.RemoveDuplicateCharacter" />
-        <item itemvalue="Application.RemoveSpecialCharacters" />
+        <item itemvalue="Application.RaisePower" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.SeriesAnswer" />
+        <item itemvalue="Application.printVlaue1And50AndContinue" />
+        <item itemvalue="Application.DivisibleOf5And7" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +372,51 @@
           <url>file://$PROJECT_DIR$/com/java/basics/NonRepeatingCharacter.java</url>
           <line>7</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/ReverseNum.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/ReverseStrings.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/ReverseStrings.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/CountNumber.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/CountNumber.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/Factorial.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/Factorial.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/RaisePower.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/basics/RaisePower.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
