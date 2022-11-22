@@ -22,10 +22,11 @@ public class Employee {
     private String empName;
     private Integer empAge;
 
-    //address_add_id; by default name is saved in databse but we have to create custom
+    //address_add_id;
+    //  second column primarykeytablename ddress-add-id by default name is saved in databse but we have to create custom
 //-------- one toOne--------------
 //    @OneToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "fk_add_id")
+//    @JoinColumn(name = "fk_add_id") //my own custom column
     //-----------------------------------------------------
     //---------------------------one to many -----------
     @OneToMany(cascade = CascadeType.ALL)

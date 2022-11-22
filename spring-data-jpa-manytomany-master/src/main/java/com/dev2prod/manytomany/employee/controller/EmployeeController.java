@@ -34,10 +34,8 @@ public class EmployeeController {
     }
 
     @PutMapping("/{empId}/project/{projectId}")
-    public Employee assignProjectToEmployee(
-            @PathVariable Long empId,
-            @PathVariable Long projectId
-    ){
+    public Employee assignProjectToEmployee(@PathVariable Long empId, @PathVariable Long projectId){
+
         return employeeService.assignProjectToEmployee(empId, projectId);
     }
 }
