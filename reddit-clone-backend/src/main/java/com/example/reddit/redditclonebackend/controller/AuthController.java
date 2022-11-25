@@ -21,7 +21,7 @@ public class AuthController {
     public ResponseEntity<String> signup(@RequestBody RegisterRequest registerRequest){
 
         authService.signup(registerRequest);
-        return new ResponseEntity<>("user registration successfully", OK);
+        return new ResponseEntity<>("user registration successfull", OK);
 
     }
 

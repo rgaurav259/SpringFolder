@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PerfectNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/WholeStringReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/InterviewRelated/ArrayProblem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/InterviewRelated/Merge2List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-author-service/src/main/java/com/gauravCompany/bookauthorService/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-author-service/src/main/java/com/gauravCompany/bookauthorService/Controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../book-author-service/src/main/java/com/gauravCompany/bookauthorService/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../book-author-service/src/main/java/com/gauravCompany/bookauthorService/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/controller/AuthController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +70,26 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PerfectNumber">
-    <configuration name="BubbleSortings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sort.BubbleSortings" />
+  <component name="RunManager" selected="Application.ArrayProblem1">
+    <configuration name="ArrayProblem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.InterviewRelated.ArrayProblem1" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Sort.*" />
+          <option name="PATTERN" value="com.java.InterviewRelated.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Merge2List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.InterviewRelated.Merge2List" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.InterviewRelated.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,19 +103,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.java.BasicPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sort.SelectionSort" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayProblem1" />
+        <item itemvalue="Application.Merge2List" />
         <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.WholeStringReverse" />
         <item itemvalue="Application.SelectionSortings" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSortings" />
       </list>
     </recent_temporary>
   </component>
@@ -687,11 +687,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="                while ((temp-num2) != 0 );&#10;" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ArrayUtil1_java$BubbleSorting.ic" NAME="BubbleSorting Coverage Results" MODIFIED="1667731620899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
