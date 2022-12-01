@@ -33,7 +33,7 @@ public class JwtUtil {
 
 
     //4. read subject/username subject means user which is logged in
-    public String getUsername(String token){
+    public String getUsername(String token) {
         return getClaims(token).getSubject();
     }
 

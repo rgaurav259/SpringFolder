@@ -1,10 +1,10 @@
 package com.example.reddit.redditclonebackend.controller;
 
+import com.example.reddit.redditclonebackend.dto.AuthenticationResponse;
 import com.example.reddit.redditclonebackend.dto.LoginRequest;
 import com.example.reddit.redditclonebackend.dto.RegisterRequest;
 import com.example.reddit.redditclonebackend.service.AuthService;
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,9 +34,9 @@ public class AuthController {
 
     //login
     @PostMapping("/login")
-    public void login(@RequestBody LoginRequest loginRequest){
+    public AuthenticationResponse login(@RequestBody LoginRequest loginRequest){
 
-        authService.login(loginRequest);
+       return authService.login(loginRequest);
 
     }
 

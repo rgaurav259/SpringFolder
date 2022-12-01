@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/InterviewRelated/ArrayProblem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/InterviewRelated/Merge2List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Streams/MapperExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Streams/StreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/Service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/Repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/entity/CartEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/model/ShoppingCartRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/model/ShoppingCartResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/dto/AuthenticationResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jjwtByR/src/main/java/com/gaurav/jjwtByR/Util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jjwtByR/src/main/java/com/gaurav/jjwtByR/Util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/service/AuthService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +64,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/SpringFolder/elasticSerachDemo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/microservicesprogramming techie/functional-patterns-devoxx-uk&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -70,7 +84,7 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayProblem1">
+  <component name="RunManager" selected="Application.StreamDemo">
     <configuration name="ArrayProblem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.InterviewRelated.ArrayProblem1" />
       <module name="ListExample" />
@@ -110,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Sort.SelectionSortings" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Streams.StreamDemo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Sort.*" />
+          <option name="PATTERN" value="com.java.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.ArrayProblem1" />
         <item itemvalue="Application.Merge2List" />
         <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.WholeStringReverse" />
-        <item itemvalue="Application.SelectionSortings" />
       </list>
     </recent_temporary>
   </component>
