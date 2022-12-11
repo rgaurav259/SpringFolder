@@ -2,26 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Streams/MapperExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Streams/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/Service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/product-service/src/main/java/com/gauravtech/productservice/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/Repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/controller/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/entity/CartEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/model/ShoppingCartRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/model/ShoppingCartResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../microservice2/shopping-cart-service/src/main/java/com/gauravtech/shoppingcartservice/service/ShoppingCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/dto/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/ArrayEVenAndOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/ArrayLinearUsingMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/BinarySearchArrauUsingMEthod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/CountNumberOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/Fibon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/LargestOfThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/LongestSubSequenceInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/PrimeNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/SumOfElementsArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Faq/Swapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/map/HashmapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jjwtByR/src/main/java/com/gaurav/jjwtByR/Util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jjwtByR/src/main/java/com/gaurav/jjwtByR/Util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reddit-clone-backend/src/main/java/com/example/reddit/redditclonebackend/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-programming-tut/src/main/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-programming-tut/src/main/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reactive-programming-tut/src/test/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-programming-tut/src/test/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +91,13 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamDemo">
-    <configuration name="ArrayProblem1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.InterviewRelated.ArrayProblem1" />
+  <component name="RunManager" selected="Application.HashmapExample">
+    <configuration name="HashmapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.map.HashmapExample" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.InterviewRelated.*" />
+          <option name="PATTERN" value="com.java.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge2List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.InterviewRelated.Merge2List" />
+    <configuration name="LongestSubSequenceInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.LongestSubSequenceInString" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.InterviewRelated.*" />
+          <option name="PATTERN" value="com.java.Faq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.PerfectNumber" />
+    <configuration name="ReverseEachWordAndParagraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.ReverseEachWordAndParagraph" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.java.Faq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Streams.StreamDemo" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.Solution" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Streams.*" />
+          <option name="PATTERN" value="com.java.Faq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WholeStringReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.WholeStringReverse" />
+    <configuration name="com.java.Faq.BinarySearchArrauUsingMEthod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.BinarySearchArrauUsingMEthod" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.java.Faq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamDemo" />
-        <item itemvalue="Application.ArrayProblem1" />
-        <item itemvalue="Application.Merge2List" />
-        <item itemvalue="Application.PerfectNumber" />
-        <item itemvalue="Application.WholeStringReverse" />
+        <item itemvalue="Application.HashmapExample" />
+        <item itemvalue="Application.LongestSubSequenceInString" />
+        <item itemvalue="Application.ReverseEachWordAndParagraph" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.com.java.Faq.BinarySearchArrauUsingMEthod" />
       </list>
     </recent_temporary>
   </component>
@@ -211,21 +218,6 @@
           <url>file://$PROJECT_DIR$/com/java/BasicPrograms/CountNumber.java</url>
           <line>7</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/java/exceptionExample/GenericMethodList.java</url>
@@ -690,14 +682,75 @@
           <line>35</line>
           <option name="timeStamp" value="141" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/MoveZeros.java</url>
-          <line>21</line>
-          <properties class="com.java.Arrayyyy.MoveZeros" method="moveZeros">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="18" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingLoop.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/PrimeNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/PrimeNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/PrimeNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/Solution.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/Solution.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

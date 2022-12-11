@@ -36,4 +36,32 @@ class FluxAndMonoServicesTest {
         StepVerifier.create(fruitMono).expectNext("Orange","Banana").verifyComplete();
 
     }
+
+    @Test
+    void fruitsFluxfilterAndMap() {
+        var fruitMono = fluxAndMonoServices.fruitsFluxfilterAndMap(5);
+        StepVerifier.create(fruitMono).expectNext("ORANGE","BANANA").verifyComplete();
+
+    }
+
+    @Test
+    void fruitsFluxfilterSplit() {
+        var fruitMono = fluxAndMonoServices.fruitsFluxflateSplit();
+        StepVerifier.create(fruitMono).expectNextCount(17).verifyComplete();
+
+    }
+
+    @Test
+    void fruitsFluxflateSplitAsync() {
+        var fruitMono = fluxAndMonoServices.fruitsFluxflateSplitAsync();
+        StepVerifier.create(fruitMono).expectNextCount(17).verifyComplete();
+
+    }
+
+    @Test
+    void fruitMonoFlatMap() {
+        var fruitMono = fluxAndMonoServices.fruitMonoFlatMap();
+        StepVerifier.create(fruitMono).expectNextCount(1).verifyComplete();
+
+    }
 }
