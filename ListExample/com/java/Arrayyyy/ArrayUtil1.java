@@ -19,7 +19,7 @@ public class ArrayUtil1 {
         myArray[3]= 5886;
         myArray[4]=456;
         printArray(myArray);
-        System.out.println("lenght is: " + myArray.length);
+        System.out.println("length is: " + myArray.length);
         System.out.println(myArray[myArray.length-1]);
     }
 

@@ -2,7 +2,7 @@ package com.java.BasicPrograms;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        int num=2;
+        int num=18;
             if (num < 2) {
                 System.out.println("Not prime");
                 return;

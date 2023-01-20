@@ -2,33 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ArrayEVenAndOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ArrayLinearUsingMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/BinarySearchArrauUsingMEthod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/CountNumberOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/Fibon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/LargestOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/LongestSubSequenceInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/PrimeNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/SumOfElementsArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/Swapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/map/HashmapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/indexSearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemoIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArraySSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/map/HashMapExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-programming-tut/src/main/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-programming-tut/src/main/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-programming-tut/src/test/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-programming-tut/src/test/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Faq/SearchLinearElementArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Faq/SearchLinearElementArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/microservicesprogramming techie/functional-patterns-devoxx-uk&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/taskSpringBoot/CandidateVotePortal",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.java.sreenuTechDemo" />
@@ -91,13 +82,13 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashmapExample">
-    <configuration name="HashmapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.map.HashmapExample" />
+  <component name="RunManager" selected="Application.Square">
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.PrimeNumber" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.map.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubSequenceInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.LongestSubSequenceInString" />
+    <configuration name="SearchLinearElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.SearchLinearElementArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseEachWordAndParagraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.ReverseEachWordAndParagraph" />
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Square" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.StringImmutability" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
@@ -131,25 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.Solution" />
+    <configuration name="indexSearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.indexSearchInsert" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.java.Faq.BinarySearchArrauUsingMEthod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.BinarySearchArrauUsingMEthod" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashmapExample" />
-        <item itemvalue="Application.LongestSubSequenceInString" />
-        <item itemvalue="Application.ReverseEachWordAndParagraph" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.com.java.Faq.BinarySearchArrauUsingMEthod" />
+        <item itemvalue="Application.Square" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.indexSearchInsert" />
+        <item itemvalue="Application.SearchLinearElementArray" />
+        <item itemvalue="Application.StringImmutability" />
       </list>
     </recent_temporary>
   </component>
@@ -683,11 +674,6 @@
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingLoop.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java</url>
           <line>11</line>
           <option name="timeStamp" value="143" />
@@ -751,6 +737,31 @@
           <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
           <line>15</line>
           <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/SumOfDigits.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/SumOfDigits.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Square.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Square.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Square.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="162" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -7,7 +7,7 @@ public class StringImmutability {
         System.out.println("s = " + s);
         System.out.println("ch = " + ch);
 
-        s="kumar";
+        s = "kumar";
         System.out.println("s = " + s);
 
     }

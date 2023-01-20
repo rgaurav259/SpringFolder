@@ -2,30 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ArrayEVenAndOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ArrayLinearUsingMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/BinarySearchArrauUsingMEthod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/CountNumberOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/Fibon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/FibonacciSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/LargestOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/PrimeNumber2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/SumOfElementsArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Faq/Swapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/indexSearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemoIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArraySSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Lists/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/map/HashMapExample1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-programming-tut/src/main/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-programming-tut/src/main/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../reactive-programming-tut/src/test/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../reactive-programming-tut/src/test/java/com/example/reactiveprogrammingtut/service/FluxAndMonoServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Faq/SearchLinearElementArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Faq/SearchLinearElementArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/microservicesprogramming techie/functional-patterns-devoxx-uk&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/springBootFolder/StudentInfo&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -88,13 +82,13 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Practice.BinarySearch" />
+  <component name="RunManager" selected="Application.Square">
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.PrimeNumber" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Practice.*" />
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,46 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.Solution" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.java.Faq.ArrayLinearUsingMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.ArrayLinearUsingMethod" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.java.Faq.BinarySearchArrauUsingMEthod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.BinarySearchArrauUsingMEthod" />
-      <module name="ListExample" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.java.Faq.SearchLinearElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchLinearElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.Faq.SearchLinearElementArray" />
       <module name="ListExample" />
       <extension name="coverage">
@@ -154,13 +109,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Square" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Faq.StringImmutability" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.Faq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="indexSearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.indexSearchInsert" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java.Arrayyyy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.com.java.Faq.BinarySearchArrauUsingMEthod" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.com.java.Faq.ArrayLinearUsingMethod" />
-        <item itemvalue="Application.com.java.Faq.SearchLinearElementArray" />
+        <item itemvalue="Application.Square" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.indexSearchInsert" />
+        <item itemvalue="Application.SearchLinearElementArray" />
+        <item itemvalue="Application.StringImmutability" />
       </list>
     </recent_temporary>
   </component>
@@ -680,11 +674,6 @@
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingLoop.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java</url>
           <line>11</line>
           <option name="timeStamp" value="143" />
@@ -718,6 +707,46 @@
           <url>file://$PROJECT_DIR$/com/java/Faq/Solution.java</url>
           <line>18</line>
           <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/ReverseEachWordAndParagraph.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/SumOfDigits.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Faq/SumOfDigits.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="159" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
