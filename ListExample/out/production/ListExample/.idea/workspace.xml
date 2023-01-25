@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Arrayyyy/indexSearchInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/BasicPrograms/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArrayListDemoIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Lists/ArraySSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Lists/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/Lists/StudentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/java/map/HashMapExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/CountNumberOFDigitt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/EvenAndOddFromArry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/Facto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/Fibona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/LargestNumOf3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/PrimeOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/ReverseANumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/StriingReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/SumOfDigi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/SumOfeleArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Basicss/swapnumb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/ArrayQ1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Arrayyyy/ArrayUtil1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/BasicPrograms/PrimeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Faq/SearchLinearElementArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Faq/StringImmutability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Arrayyyy/ArrayUtil1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/BasicPrograms/PrimeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Faq/SearchLinearElementArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Faq/SearchLinearElementArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +58,11 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/springBootFolder/StudentInfo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/taskSpringBoot/CandidateVotePortal&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -82,13 +78,13 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Square">
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.PrimeNumber" />
+  <component name="RunManager" selected="Application.ArrayQ1">
+    <configuration name="ArrayQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.ArrayQ1" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchLinearElementArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.SearchLinearElementArray" />
+    <configuration name="Facto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Basicss.Facto" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
+          <option name="PATTERN" value="com.java.Basicss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.BasicPrograms.Square" />
+    <configuration name="Fibona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Basicss.Fibona" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.BasicPrograms.*" />
+          <option name="PATTERN" value="com.java.Basicss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Faq.StringImmutability" />
+    <configuration name="PrimeOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Basicss.PrimeOrNot" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Faq.*" />
+          <option name="PATTERN" value="com.java.Basicss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="indexSearchInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Arrayyyy.indexSearchInsert" />
+    <configuration name="SumOfeleArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Basicss.SumOfeleArr" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Arrayyyy.*" />
+          <option name="PATTERN" value="com.java.Basicss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Square" />
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.indexSearchInsert" />
-        <item itemvalue="Application.SearchLinearElementArray" />
-        <item itemvalue="Application.StringImmutability" />
+        <item itemvalue="Application.ArrayQ1" />
+        <item itemvalue="Application.SumOfeleArr" />
+        <item itemvalue="Application.Facto" />
+        <item itemvalue="Application.PrimeOrNot" />
+        <item itemvalue="Application.Fibona" />
       </list>
     </recent_temporary>
   </component>
@@ -748,8 +744,62 @@
           <line>6</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Square.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Square.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/BasicPrograms/Square.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Arrayyyy/FindDuplicateUsingSet.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Basicss/Fibona.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Basicss/Fibona.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Basicss/PrimeOrNot.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Basicss/PrimeOrNot.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Basicss/PrimeOrNot.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ArrayUtil1_java$BubbleSorting.ic" NAME="BubbleSorting Coverage Results" MODIFIED="1667731620899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
