@@ -5,7 +5,7 @@ public class PrimeNumber {
 
         //System.out.println(7/2);
                 // Input number
-                int n = 7;
+                int n = 2;
                 int count = 0;
                 // There is no prime number less than 2.
                 if (n <= 1) {

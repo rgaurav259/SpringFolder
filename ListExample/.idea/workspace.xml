@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/test/ArrayQManupulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/ReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/java/Practice/StringRev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/BubleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/CountNumberOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/FibonacciSe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/FindMissingInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/Linear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/PrimeFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/PrimeNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/ReverseANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/ReverseAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/Selectionsorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/SumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Basic/Swap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/RotateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/TwoPointers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/test/ArrayQ1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/test/ArrayQ1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Practice/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Practice/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/test/ArrayQ1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/test/ArrayQ1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +83,13 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseArray">
-    <configuration name="ArrayQ1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.ArrayQ1" />
+  <component name="RunManager" selected="Application.FibonacciSe">
+    <configuration name="FibonacciSe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic.FibonacciSe" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.Basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayQManupulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.ArrayQManupulation" />
+    <configuration name="PrimeFact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic.PrimeFact" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.test.Basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.ReverseArray" />
+    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Practice.PrimeNumber" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.java.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfeleArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Basicss.SumOfeleArr" />
+    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Basic.ReverseANumber" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Basicss.*" />
+          <option name="PATTERN" value="com.test.Basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.TargetSum" />
+    <configuration name="StringRev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java.Practice.StringRev" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.*" />
+          <option name="PATTERN" value="com.java.Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.ArrayQManupulation" />
-        <item itemvalue="Application.TargetSum" />
-        <item itemvalue="Application.ArrayQ1" />
-        <item itemvalue="Application.SumOfeleArr" />
+        <item itemvalue="Application.FibonacciSe" />
+        <item itemvalue="Application.ReverseANumber" />
+        <item itemvalue="Application.PrimeFact" />
+        <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.StringRev" />
       </list>
     </recent_temporary>
   </component>
@@ -788,19 +800,104 @@
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/test/ReverseArray.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="170" />
+          <url>file://$PROJECT_DIR$/com/test/RotateArray.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/test/ReverseArray.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="171" />
+          <url>file://$PROJECT_DIR$/com/test/RotateArray.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/com/test/ReverseArray.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="172" />
+          <url>file://$PROJECT_DIR$/com/test/RotateArray.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/RotateArray.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/ReverseANumber.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/SumOfDigits.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/SumOfDigits.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/PrimeNum.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/PrimeNum.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FindMissingInArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FindMissingInArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/Linear.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Practice/StringRev.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/java/Practice/StringRev.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/PrimeFact.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/PrimeFact.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
