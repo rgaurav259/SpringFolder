@@ -1,8 +1,5 @@
 package com.java.Practice;
 
-import java.util.Iterator;
-import java.util.Objects;
-
 public class ReverseAString {
     public static void main(String[] args) {
 

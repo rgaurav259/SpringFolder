@@ -2,7 +2,7 @@ package com.test.Basic;
 
 public class PrimeFact {
     public static void primeFactorNum(){
-        int num = 36;
+        int num = 100;
         for (int i =2; i<=num;i++){
             while (num % i == 0){
                 System.out.print(" " + i);

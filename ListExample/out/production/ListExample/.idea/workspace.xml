@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00da13a9-61fb-416c-913f-fa74f018aebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/java/Practice/StringRev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/BubleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/CountNumberOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/FibonacciSe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/FindMissingInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/Linear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/PrimeFact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/PrimeNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/ReverseANumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/ReverseAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/Selectionsorts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/SumOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/Basic/Swap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/test/TwoPointers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/Arrayss/InsertElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/String/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/String/EenStringPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/String/RemoveDupChars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/String/RemoveSpecialChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/String/StringRev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/newBasic/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/newBasic/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/newBasic/FindGreatrest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/newBasic/PrimeInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/newBasic/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/test/newBasic/SimpleReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/java/Practice/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Practice/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/java/Practice/ReverseAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/java/Practice/ReverseAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/test/Basic/PrimeFact.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/test/Basic/PrimeFact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/test/Basic/Selectionsorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/test/Basic/Selectionsorts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/java/Practice/ReverseAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/java/Practice/ReverseAString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/test/Basic/PrimeFact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/test/Basic/PrimeFact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ListExample/com/test/Basic/Selectionsorts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ListExample/com/test/Basic/Selectionsorts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +84,13 @@
       <recent name="com.java.LeetCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
-    <configuration name="Linear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic.Linear" />
+  <component name="RunManager" selected="Application.EenStringPrint">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.String.Anagram" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.Basic.*" />
+          <option name="PATTERN" value="com.test.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeFact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic.PrimeFact" />
+    <configuration name="EenStringPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.String.EenStringPrint" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.Basic.*" />
+          <option name="PATTERN" value="com.test.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Practice.PrimeNumber" />
+    <configuration name="Fibo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.newBasic.Fibo" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Practice.*" />
+          <option name="PATTERN" value="com.test.newBasic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selectionsorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Basic.Selectionsorts" />
+    <configuration name="InsertElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.Arrayss.InsertElementInArray" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.Basic.*" />
+          <option name="PATTERN" value="com.test.Arrayss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +137,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringRev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java.Practice.StringRev" />
+    <configuration name="RemoveDupChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.String.RemoveDupChars" />
       <module name="ListExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.Practice.*" />
+          <option name="PATTERN" value="com.test.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveSpecialChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.String.RemoveSpecialChar" />
+      <module name="ListExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.PrimeFact" />
-        <item itemvalue="Application.StringRev" />
-        <item itemvalue="Application.Linear" />
-        <item itemvalue="Application.Selectionsorts" />
+        <item itemvalue="Application.EenStringPrint" />
+        <item itemvalue="Application.InsertElementInArray" />
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.RemoveDupChars" />
+        <item itemvalue="Application.RemoveSpecialChar" />
       </list>
     </recent_temporary>
   </component>
@@ -868,6 +882,51 @@
           <url>file://$PROJECT_DIR$/com/java/Practice/StringRev.java</url>
           <line>28</line>
           <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/PrimeFact.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/PrimeFact.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/Basic/FibonacciSe.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/newBasic/PrimeNumber.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/newBasic/PrimeNumber.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/test/newBasic/PrimeNumber.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="203" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
